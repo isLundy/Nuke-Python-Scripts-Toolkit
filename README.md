@@ -29,7 +29,7 @@
 
 > 若熟悉安装可略过
 
-1. 将 `nuLibrary` 文件夹复制到用户目录的 `.nuke` 文件夹内
+1. 将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关鸡，鸡你太美！:bomb::boom:），
       并将以下代码复制到文件中。
@@ -45,9 +45,11 @@
 
 ## Introduce :books:
 
-:heavy_check_mark: 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 一栏。
+:heavy_check_mark: 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 一栏，并且内有显示 **`快捷键`** ，请查看。
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
+
+
 
 #### 3D :label:
 - animatedSnap3D
@@ -63,8 +65,10 @@
 - Default
   - > _作者：Simon Jokuschies_
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
-- openDirFolder
-  - > 作者: Lundy Hu （没错，就是我）
+- winExploreDir
+  - > _作者: Thorsten 编写， Varun Hadkar 发布。 （思路来源于，代码现已全部被我更改。现已适用于 Windows、Linux、Mac OS）_
+  - > 使用方法：
+    > 
 
 #### NodeGraph :label:
 - AlignNodes
