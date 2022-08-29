@@ -25,4 +25,6 @@
 想要深入了解插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
 ## Introduce
-此工具包主要是整合了一些
+此工具包整合了我在Nuke中一些较为`实用`, `高效`, 且`优雅`的Scripts。
+
+建议尽可能地熟悉W_Hotbox插件。`快速`，`高度自定义化`，`可以减少很多快捷键的占用`。
