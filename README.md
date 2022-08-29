@@ -25,10 +25,10 @@
 想要深入了解插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
 ## Introduce
-我个人平时制作了一个名为 `nuLibrary` 的工具， `nuLibrary` 内含有 `Gizmos`， `PthonScripts`， `Series` 三个不同的工具包，大部分的gizmo和script来自于网络，少部分为自己编写。在这里只公开发布 `PythonScripts`， `Gizmos` 和 `Series` 暂不公开，其中一部分原因是与NukeSurvivalToolkit中的内容大致相同，最大的区别是在Nuke中的布局不一样。
+我个人平时制作了一个名为 `nuLibrary` 的工具， `nuLibrary` 内含有 `Gizmos`， `PthonScripts`， `Series` 三个不同的工具包，大部分的gizmo和script来自于网络，少部分为自己编写。在这里只公开发布 `PythonScripts`， `Gizmos` 和 `Series` 暂不公开，其中一部分原因是与 `NukeSurvivalToolkit` 中的内容大致相同，在表面上的最大的区别是在 Nuke 中的布局不一样。
 
-`NukeSurvivalToolkit`的GitHub地址 [Here](https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease.git)。
+`NukeSurvivalToolkit` 的 GitHub 地址 [Here](https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease.git)。
 
-在PythonScripts中整合了我在Nuke中一些较为`实用`, `高效`, 且`优雅`的Scripts,并在Nuke中做了布局。
+在PythonScripts中整合了我在Nuke中一些较为`实用`, `高效`, 且`优雅`的 Scripts,并在 Nuke 中做了布局。
 
 如若感兴趣建议尽可能地熟悉W_Hotbox插件。`快速`，`高度自定义化`，`可以减少很多快捷键的占用`。
