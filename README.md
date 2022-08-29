@@ -73,11 +73,13 @@ W_hotbox 没有显示在以下 layout 中，显示在 Nuke 菜单的 Edit 下和
 - Channel_Hotbox
 - CloseAllProperties
 - SearchReplacePanel
-- W_hotbox `(在 Nuke 里没有显示在此 layout 中，显示在 Nuke 菜单的 Edit 下和 Preferences 面板中)`
+- W_hotbox 
 
-      作者：Wouter Gilsing
+  - `（在 Nuke 里没有显示在此 layout 中，显示在 Nuke 菜单的 Edit 下和 Preferences 面板中）`
 
-      具体介绍及使用方法：[http://www.nukepedia.com/python/ui/w_hotbox](url)
+  - 作者：Wouter Gilsing
+
+  - 具体介绍及使用方法：[http://www.nukepedia.com/python/ui/w_hotbox](http://www.nukepedia.com/python/ui/w_hotbox)
 
 
 #### **zLundy**
