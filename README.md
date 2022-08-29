@@ -6,7 +6,7 @@
 ## Perface
 > 当你看到这个页面时说明你可以访问GitHub（废话）, 若会科学上网请使用代理访问:rocket:（无需多言），若不会可略过。
 
-我个人平时制作了一个名为 `nuLibrary` 的工具， nuLibrary 内含有 `Gizmos`， `PthonScripts`， `Series` 三个不同的工具包，大部分的 gizmo 和 script 来自于网络，少部分为自己编写。在这里只公开发布 `PythonScripts`， Gizmo 和 Series 暂不公开，其中一部分原因是与 `NukeSurvivalToolkit` 中的内容大致相同，其表面的最大的区别是在 Nuke 中的布局不一样。
+我个人平时制作了一个名为 `nuLibrary` 的工具， nuLibrary 内含有 `Gizmos`， `PthonScripts`， `Series` 三个不同的工具包，大部分的 gizmo 和 script 来自于网络，少部分为自己编写。在这里只公开发布 `PythonScripts`， Gizmo 和 Series 暂不公开，其中一部分原因是与 `NukeSurvivalToolkit` 中的内容大致相同，其表面的最大区别是在 Nuke 中的布局不一样。
 
 在 PythonScripts 中整合了我在 Nuke 中所使用的一些较为`实用`, `高效`, 且`优雅`的 Scripts（或者称之为插件）,并在 Nuke 中做了布局。
 
