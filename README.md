@@ -9,10 +9,10 @@
       ```
       最后将 `init.txt` 更改为 `init.py`
       
-      若 .nuke 文件夹内存在 init.py 文件，打开init.py（右键用记事本方式打开或用你会的一种方式打开。若都不会，请将电脑关鸡！），
+      若 `.nuke` 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若都不会，请将电脑关鸡！），
       将下面一行代码复制到文件中。
       ```python
       nuke.pluginAddPath('./nuLibrary')
       ``` 
-      
+官方指导[[Here]](url)
 ## Introduce
