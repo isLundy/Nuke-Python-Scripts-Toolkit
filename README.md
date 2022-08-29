@@ -13,7 +13,7 @@
 
 在这里只公开发布 `PythonScripts` :hammer_and_wrench:。 Gizmos :hammer_and_wrench: 和 Series :hammer_and_wrench: 主要针对于我个人使用习惯做了 layout，与 `NukeSurvivalToolkit` 中的内容大致相同，其表面的最大区别是在 Nuke 中的 layout 不一样，所以暂不公开，无意义。
 
-在 PythonScripts 中整合了我在 Nuke 中所使用的一些较为`实用`, `高效`, 且`优雅`的 Scripts（脚本，或者称之为插件 :electric_plug:）,并在 Nuke 中做了 layout。
+在 `PythonScripts` :hammer_and_wrench: 中整合了我在 Nuke 中所使用的一些较为`实用`, `高效`, 且`优雅`的 Scripts（脚本，或者称之为插件 :electric_plug:）,并在 Nuke 中做了 layout。
 
 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: 插件，**`快速`**、**`高度自定义化`**、**`可以避免对很多快捷键的占用`**。若对Python有了解的话，会使你锦上添花 :sunflower:。
 
@@ -54,7 +54,7 @@
 
 ## Introduce :books:
 
-:heavy_check_mark: 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 一栏，并且内有显示 **`快捷键`** ，请查看。
+:heavy_check_mark: 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 一栏，并且内有显示 **`快捷键`** ，敬请查看。
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
