@@ -11,7 +11,7 @@
 
 在 PythonScripts 中整合了我在 Nuke 中所使用的一些较为`实用`, `高效`, 且`优雅`的 Scripts（脚本，或者称之为插件 :electric_plug:）,并在 Nuke 中做了 layout。
 
-如若感兴趣建议尽可能地熟悉 `W_hotbox` 插件 :hammer:。`快速`，`高度自定义化`，`可以减少很多快捷键的占用`。若对Python有了解的话，会使你锦上添花 :sunflower:。
+如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: 插件。`快速`，`高度自定义化`，`可以减少很多快捷键的占用`。若对Python有了解的话，会使你锦上添花 :sunflower:。
 
 ## Download :books:
 
@@ -28,8 +28,8 @@
 > 若熟悉安装可略过
 
 1. 将 `nuLibrary` 文件夹复制到用户目录的 `.nuke` 文件夹内
-2. - 若 `.nuke` 文件夹 :file_folder: 内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
-   - 若 `.nuke` 文件夹 :file_folder: 内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关鸡，鸡你太美！:bomb::boom:），
+2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
+   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关鸡，鸡你太美！:bomb::boom:），
       并将以下代码复制到文件中。
       ```python
       import nuke
@@ -52,8 +52,9 @@ W_hotbox 没有显示在以下 layout 中，显示在 Nuke 菜单的 Edit 下和
 作者：Wouter Gilsing
 
 介绍及使用方法： [http://www.nukepedia.com/python/ui/w_hotbox](http://www.nukepedia.com/python/ui/w_hotbox)
-<br>
-<br>
+
+<br />
+
 #### **Import_Export**
 - CollectFiles
 
@@ -72,7 +73,12 @@ W_hotbox 没有显示在以下 layout 中，显示在 Nuke 菜单的 Edit 下和
 - Channel_Hotbox
 - CloseAllProperties
 - SearchReplacePanel
-- W_hotbox
+- W_hotbox `(在 Nuke 里没有显示在此 layout 中，显示在 Nuke 菜单的 Edit 下和 Preferences 面板中)`
+
+      作者：Wouter Gilsing
+
+      具体介绍及使用方法：
+- [http://www.nukepedia.com/python/ui/w_hotbox](url)
 
 #### **zLundy**
 - openPresetFolder
