@@ -63,8 +63,8 @@
 - Default
   - > _作者：Simon Jokuschies_
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
-- winExploreDir
-  - 作者
+- openDirFolder
+  - > 作者: Lundy Hu （没错，就是我）
 
 #### NodeGraph :label:
 - AlignNodes
