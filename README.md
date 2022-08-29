@@ -3,9 +3,13 @@
       <br> PythonScripts Toolkit for Nuke</br>
 </h1>
 
-## Install <sub><sub>若熟悉安装请略过</sub></sub>
+## Perface
+当你看到这个页面时就说明你可以访问GitHub了（这是废话）,
+
+## Install  
+> 若熟悉安装可略过
 1. 将 `nuLibrary` 文件夹复制到 `.nuke` 文件夹内
-2. 若 `.nuke` 文件夹内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中。
+2. - 若 `.nuke` 文件夹内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中。
       ```python
       import nuke
 
@@ -13,8 +17,8 @@
       ```
       最后将 `init.txt` 更改为 `init.py`
       
-      若 `.nuke` 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若都不会，请将电脑关鸡！），
-      将下面一行代码复制到文件中。
+    - 若 `.nuke` 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若都不会，请将电脑关鸡！），
+      将下面一行代码复制到文件中（总之，缺少哪行代码就复制哪行）。
       ```python
       nuke.pluginAddPath('./nuLibrary')
       ``` 
