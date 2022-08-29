@@ -73,7 +73,7 @@
 - Default
   - > _作者：Simon Jokuschies_
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
-- winExploreDir
+- openExploreDir
   - > _作者: Thorsten 编写， Varun Hadkar 发布。（思路来源于 Thorsten，代码已全部被我更改。现已适用于 Windows、Linux、Mac）_
   - > 使用方法：
     > 
