@@ -7,11 +7,11 @@
 
 > 当你看到这个页面时说明你可以访问GitHub（很显然你看到了一句废话）, 若会科学上网请使用代理访问 :rocket:（无需多言），若不会可略过。
 
-我个人平时制作了一个名为 `nuLibrary` :toolbox: 的工具库， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:， `PthonScripts` :hammer_and_wrench:， `Series` :hammer_and_wrench: 三个不同的工具包，大部分的 gizmo 和 script 来自于网络，少部分为自己编写。在这里只公开发布 `PythonScripts`， Gizmo 和 Series 暂不公开，其中一部分原因是与 `NukeSurvivalToolkit` 中的内容大致相同，其表面的最大区别是在 Nuke 中的 layout 不一样。
+我个人平时整合并制作了一个名为 `nuLibrary` :toolbox: 的工具库， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:， `PthonScripts` :hammer_and_wrench:， `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。在这里只公开发布 `PythonScripts`， Gizmos 和 Series 暂不公开，其中一部分原因是与 `NukeSurvivalToolkit` 中的内容大致相同，其表面的最大区别是在 Nuke 中的 layout 不一样。
 
 在 PythonScripts 中整合了我在 Nuke 中所使用的一些较为`实用`, `高效`, 且`优雅`的 Scripts（脚本，或者称之为插件 :electric_plug:）,并在 Nuke 中做了 layout。
 
-如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: 插件。`快速`，`高度自定义化`，`可以减少很多快捷键的占用`。若对Python有了解的话，会使你锦上添花 :sunflower:。
+如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: 插件，**`快速`**、**`高度自定义化`**、**`可以避免对很多快捷键的占用`**。若对Python有了解的话，会使你锦上添花 :sunflower:。
 
 ## Download :books:
 
@@ -43,44 +43,35 @@
 
 ## Introduce :books:
 
-完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts`。
+:heavy_check_mark: 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 一栏。
 
-#### **W_hotbox**
+#### 3D :label:
+- animatedSnap3D
+  - > _作者：Ivan Busquets - 使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
-W_hotbox 没有显示在以下 layout 中，显示在 Nuke 菜单的 Edit 下和 Preferences 面板中。
-
-作者：Wouter Gilsing
-
-介绍及使用方法： [http://www.nukepedia.com/python/ui/w_hotbox](http://www.nukepedia.com/python/ui/w_hotbox)
-
-<br />
-
-#### **Import_Export**
+#### Import_Export :label:
 - CollectFiles
+  - > _作者：Mariano Antico_
+  - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
-#### **Misc**
+#### Misc :label:
 - Default
+  - 作者：Simon Jokuschies
+  - 使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)
 - winExploreDir
+  - 作者
 
-#### **NodeGraph**
+#### NodeGraph :label:
 - AlignNodes
 - MultiChannelSplit
 - V_Tools
 - W_scaleTree
 - W_smartAlign
 
-#### **UI**
+#### UI :label:
 - Channel_Hotbox
 - CloseAllProperties
 - SearchReplacePanel
 - W_hotbox 
-
-  - `（在 Nuke 里没有显示在此 layout 中，显示在 Nuke 菜单的 Edit 下和 Preferences 面板中）`
-
   - 作者：Wouter Gilsing
-
-  - 具体介绍及使用方法：[http://www.nukepedia.com/python/ui/w_hotbox](http://www.nukepedia.com/python/ui/w_hotbox)
-
-
-#### **zLundy**
-- openPresetFolder
+  - 使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)
