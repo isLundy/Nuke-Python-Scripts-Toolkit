@@ -1,5 +1,9 @@
-# <p align='center'>PythonScripts Toolkit</p>
-## Install 
+<h1 align="center"> 
+      <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png">
+      <br> PythonScripts Toolkit</br>
+</h1>
+
+## Install
 1. 将 `nuLibrary` 文件夹复制到 `.nuke` 文件夹内
 2. 若 `.nuke` 文件夹内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中。
       ```python
