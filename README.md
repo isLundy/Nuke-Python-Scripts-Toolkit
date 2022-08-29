@@ -6,6 +6,11 @@
 ## Perface
 当你看到这个页面时说明你可以访问GitHub（废话）, 若会科学上网请使用代理访问:rocket:（无需多言），若不会可略过。
 
+
+## Download
+> 若熟悉GitHub可略过
+点击右侧的 Releases > latest
+
 ## Install  
 > 若熟悉安装可略过
 1. 将 `nuLibrary` 文件夹复制到用户目录的 `.nuke` 文件夹内
