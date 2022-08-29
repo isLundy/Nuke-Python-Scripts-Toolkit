@@ -1,6 +1,6 @@
 <h1 align="center"> 
       <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png">
-      <br> PythonScripts Toolkit for Nuke</br>
+      <br> PythonScripts Toolkit for Nuke
 </h1>
 
 ## Perface
@@ -42,7 +42,8 @@
 ## Introduce
 
 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts`。
-
+<br>
+<br>
 #### **W_hotbox**
 
 W_hotbox 没有显示在以下布局中，显示在 Nuke 菜单的 Edit 下和 Preferences 面板中。
@@ -50,7 +51,8 @@ W_hotbox 没有显示在以下布局中，显示在 Nuke 菜单的 Edit 下和 P
 作者：Wouter Gilsing
 
 介绍及使用方法： [http://www.nukepedia.com/python/ui/w_hotbox](http://www.nukepedia.com/python/ui/w_hotbox)
-
+<br>
+<br>
 **Import_Export**
 - CollectFiles
 
