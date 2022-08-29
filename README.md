@@ -47,6 +47,8 @@
 
 :heavy_check_mark: 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 一栏。
 
+<p align="center"><img src="./images/PythonScript_layout.png"></p>
+
 #### 3D :label:
 - animatedSnap3D
   - > _作者：Ivan Busquets
