@@ -18,5 +18,5 @@
       ```python
       nuke.pluginAddPath('./nuLibrary')
       ``` 
-想要深入了解插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/13.2/pythondevguide/installing_plugins.html#installingplugins-ref-label)
+想要深入了解插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 ## Introduce
