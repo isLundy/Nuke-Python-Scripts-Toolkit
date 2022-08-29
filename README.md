@@ -47,7 +47,7 @@
 
 > 想要深入了解 nuke 插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
-什么 :question: 你还想问怎么 uninstall :question: 直接 delete :wastebasket: 就好了~（删除掉文件夹、文件或文件中的代码）
+> 什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 就好了~（删除掉文件夹、文件或文件中的代码）
 
 <br />
 
