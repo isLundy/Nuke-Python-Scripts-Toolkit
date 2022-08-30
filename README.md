@@ -1,5 +1,5 @@
 <h1 align="center"> 
-      <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png">
+      <img src="/images/python-logo-only.png">
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
