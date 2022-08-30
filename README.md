@@ -9,11 +9,11 @@
 
 > 当你看到这个页面时说明你可以访问GitHub（很显然你看到了一句废话）, 若熟悉科学上网请使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
-我个人平时整合并制作了一个名为 `nuLibrary` :toolbox: 的工具库， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:， `PthonScripts` :hammer_and_wrench:， `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
+我个人平时整合并制作了一个名为 `nuLibrary` :toolbox: 的工具库， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:、 `PthonScripts` :hammer_and_wrench:、 `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
 
 现只公开发布 `PythonScripts` :hammer_and_wrench:，后续可能会更新，但频率不会太高（或许半年？一年？三年？更新一次），前提是只要我还在呼吸。 `Gizmos` :hammer_and_wrench: 和 `Series` :hammer_and_wrench: 主要针对于我个人使用习惯做了 layout，与 `NukeSurvivalToolkit` 中的内容类似，其表面的最大区别是在 Nuke 中的 layout 不一样，所以暂不公开，无过多意义。
 
-在 `PythonScripts` :hammer_and_wrench: 中整合了我在 Nuke 中所使用的一些较为`实用`, `高效`, 且`优雅`的 Scripts（脚本、命令或者称之为插件 :electric_plug:）,并在 Nuke 中做了 layout，这几乎改变了我的工作方式。
+在 `PythonScripts` :hammer_and_wrench: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 Scripts（脚本、命令或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
 
 <br />
 
@@ -25,15 +25,15 @@
 
 点击右侧的 `Releases` > `latest` 会进入到以下页面
 
-点击 `Assets` 下的第一个就可以了。
+点击 `Assets` 下的第一个链接 :link: 就可以了。
 
 <br />
 
 ## Install :books:
 
- 若熟悉安装可略过
+> 若熟悉安装可略过
 
-1. 下载 .zip 文件解压后将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内
+1. 下载 `.zip` :briefcase: 文件解压后将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
@@ -50,7 +50,7 @@
 <br />
 
 什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 即可~
-- 只需删除 `.nuke` :file_folder: 文件夹内 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删可不删~
+- 只需删除 `.nuke` :file_folder: 文件夹内 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删也可不删~
 
   ```python
   nuke.pluginAddPath('./nuLibrary')
@@ -66,19 +66,19 @@
 
 :scroll: 以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式遵循 NukePedia，目前分了 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五类。有关 scripts 的快捷键不在下面介绍了，安装后请在 Nuke 中查看。
 
-> 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 `锦上添花` :sunflower: `如虎添翼` :eagle:。
+> 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower: **`如虎添翼`** :eagle:。
 
 <br />
 
 #### 3D :label:
-- **`animatedSnap3D`**
-  - > _作者：Ivan Busquets
+- `animatedSnap3D`
+  - > _作者：Ivan Busquets_
   - > _使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
 <br />
 
 #### Import_Export :label:
-- **`CollectFiles`**
+- `CollectFiles`
   - > _作者：Mariano Antico_
   - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
@@ -150,7 +150,7 @@
 <br />
 
 `CreateOutDirs`
-- > _来源：Foundry 官方开发者文档_
+- > _来源：Nuke 官方开发者文档_
 - > 使用方法：无需操作，打开 Nuke 后自动启用。它会在 Write 节点开始渲染前的那一刻自动会检测当前 Write 节点的文件路径是否存在，若为否，则先创建该目录然后在渲染。相当于主动勾选 	:ballot_box_with_check: 了 Write 节点内的 `create directories` 选项。只不过它无视 `create directories` 选项，无论是否勾选，都会运行 :heavy_check_mark: `CreateOutDirs`。
 
 <br />
@@ -163,4 +163,4 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :hamm
 
 - > 有些是无法显示在 `PythonScripts` :hammer_and_wrench: 中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在像是 `Card`、 `Cube`、 `Camera` 这类三维节点面板的 `snap_menu` 旋钮中。所以无法显示在 `PythonScripts` :hammer_and_wrench: 中。
 
-- > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动自动运行全程后台的 scripts，你要显示它干啥 :question: 干啥 :question: 干啥 :question:
+- > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动自动运行全程后台的 scripts，要显示它干嘛 :question: 干嘛 :question: 干嘛 :question:
