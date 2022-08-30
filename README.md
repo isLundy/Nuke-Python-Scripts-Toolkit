@@ -64,7 +64,7 @@
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
-:scroll: 以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式与 NukePedia 中一致，目前分了 **3D** :label:、**Import_Export** :label:、**Misc** :label:、**NodeGraph** :label:、**UI** :label: 五类。有关 scripts 的快捷键不在下面介绍了，安装后请在 Nuke 中查看。
+:scroll: 以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式遵循 NukePedia，目前分了 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五类。有关 scripts 的快捷键不在下面介绍了，安装后请在 Nuke 中查看。
 
 > 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 `锦上添花` :sunflower: `如虎添翼` :eagle:。
 
@@ -87,7 +87,7 @@
 #### Misc :label:
 - `Auto open .nk as NukeX`
   - > _作者：Max van Leeuwen_
-  - > _使用方法：仅针对于 Windows 需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下手动运行。[https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex](https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex)_
+  - > _使用方法：仅针对于 Windows 系统，需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下手动运行。[https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex](https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex)_
 
 - `Default`
   - > _作者：Simon Jokuschies_
@@ -146,3 +146,13 @@
 - `W_hotbox `
   - > _作者：Wouter Gilsing_
   - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我人人编写的很多 scripts 也放在了 W_hotbox 中，因为实在是太方便了。_
+
+<br />
+
+`CreateOutDirs`
+- > _来源：Foundry 官方开发者文档_
+- > 使用方法：无需操作，打开 Nuke 后自动启用。它会在 Write 节点开始渲染前的那一刻自动会检测当前 Write 节点的文件路径是否存在，若为否，则先创建该目录然后在渲染。相当于主动勾选 	:ballot_box_with_check: 了 Write 节点内的 `create directories` 选项。只不过它无视 `create directories` 选项，无论是否勾选，都会运行 :heavy_check_mark: `CreateOutDirs`。
+
+<br />
+
+#### Question :question:
