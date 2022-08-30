@@ -123,6 +123,10 @@
 <br />
 
 #### UI :label:
+- `AnimationMaker`
+  - > _作者：David Emeny_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/animation-maker](https://www.nukepedia.com/python/ui/animation-maker)_
+
 - `Channel_Hotbox`
   - > _作者：Falk Hofmann_
   - > _使用方法：[https://www.nukepedia.com/python/ui/channel-hotbox](https://www.nukepedia.com/python/ui/channel-hotbox)_
