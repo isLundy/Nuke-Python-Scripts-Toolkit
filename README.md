@@ -33,11 +33,13 @@
 
 ## Install :books:
 
-> 若熟悉安装可略过
+ 若熟悉安装可略过
 
 1. 将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
-   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关 :chicken:，:chicken: 你太美！），并将以下代码复制到文件中。
+   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
+   
+     （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关 :chicken:!）
       
      ```python
      import nuke
@@ -47,8 +49,10 @@
 
 > 想要深入了解 nuke 插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
-什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 就好了~
-- 只需删除 `.nuke` :file_folder: 文件夹内 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删可不删（看你心情）~
+<br />
+
+什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 即可~
+- 只需删除 `.nuke` :file_folder: 文件夹内 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删可不删~
 
   ```python
   nuke.pluginAddPath('./nuLibrary')
@@ -110,7 +114,7 @@
 
 - `V_Tools`
   - > _作者： Victor Perez_
-  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个scripts（另外一个由上面 readFromWrite 替代）。功能同字面意思一样。_
+  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个 scripts（另外一个由上面 readFromWrite 替代）。功能同字面意思一样。_
 
 - `W_scaleTree`
   - > _作者：Wouter Gilsing_
