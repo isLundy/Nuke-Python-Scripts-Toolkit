@@ -37,13 +37,14 @@
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
-     （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关 :chicken:!）
+     （右键用记事本方式打开或用你会的一种方式打开。若不会打开 :fearful:，请将电脑关 :chicken: :exclamation:）
       
      ```python
      import nuke
 
      nuke.pluginAddPath('./nuLibrary')
      ```
+3. 打开 Nuke，尽情享用 ！
 
 > 想要深入了解 nuke 插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
