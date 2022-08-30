@@ -62,39 +62,69 @@
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
-
+:scroll: 以下为对于各种分类里 scripts 的介绍，分类方式与 NukePedia 中一致。有关 scripts 的快捷键不在下面介绍了，安装后请在 Nuke 中查看。
 
 #### 3D :label:
-- animatedSnap3D
+- `animatedSnap3D`
   - > _作者：Ivan Busquets
   - > _使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
 #### Import_Export :label:
-- CollectFiles
+- `CollectFiles`
   - > _作者：Mariano Antico_
   - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
 #### Misc :label:
-- Default
+- `Auto open .nk as NukeX`
+  - > _作者：Max van Leeuwen_
+  - > _使用方法：需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下手动运行。[https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex](https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex)_
+
+- `Default`
   - > _作者：Simon Jokuschies_
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
-- openExploreDir
-  - > _作者：Lundy Hu (Yes, It's me !), （原作者：Thorsten 编写， Varun Hadkar 发布。思路来源于 Thorsten，代码现已全部被我更改。现已适用于 Windows、Linux、Mac，并添加了新功能）_
-  - > 使用方法：
+
+- `openExploreDir`
+  - > _作者：Lundy Hu (Yes, It's me !), （原名：winExploreDir, 原作者：Thorsten 编写， Varun Hadkar 发布。思路来源于 Thorsten，名称和代码现已全部被我更改，已适用于 Windows、Linux、Mac，并添加了新功能）_
+  - > _使用方法：_
+
+- `readFromWrite`
+  - > _作者：未知_
+  - > _使用方法：表里如一，和字面意思一样。可使用快捷键从选定的 Write 节点读取输出的图像。_
 
 #### NodeGraph :label:
-- AlignNodes
-  - > 作者：Frank Rueter
-  - > 使用方法：[https://www.nukepedia.com/python/nodegraph/alignnodes](https://www.nukepedia.com/python/nodegraph/alignnodes)，快捷键已被我更改，请在 Nuke 中查看。
-- MultiChannelSplit
-- V_Tools
-- W_scaleTree
-- W_smartAlign
+- `AlignNodes`
+  - > _作者：Frank Rueter_
+  - > _使用方法：快捷键已被我更改，配合 `W_smartAlign` 一同使用。[https://www.nukepedia.com/python/nodegraph/alignnodes](https://www.nukepedia.com/python/nodegraph/alignnodes)，_
+
+- `MultiChannelSplit`
+  - > _作者：Simon Jokuschies_
+  - > _使用方法：[https://www.nukepedia.com/python/nodegraph/multichannelsplit_v03](https://www.nukepedia.com/python/nodegraph/multichannelsplit_v03)_
+
+- `V_Tools`
+  - > _作者： Victor Perez_
+  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个scripts（另外一个由上面 readFromWrite 替代）。功能同字面意思一样。_
+
+- `W_scaleTree`
+  - > _作者：Wouter Gilsing_
+  - > _使用方法：[https://www.nukepedia.com/python/nodegraph/w_scaletree](https://www.nukepedia.com/python/nodegraph/w_scaletree)_
+
+- `W_smartAlign`
+  - > _作者：Wouter Gilsing_
+  - > _使用方法：快捷键已被我更改，配合 `AlignNodes` 一同使用。[https://www.nukepedia.com/python/nodegraph/w_smartalign](https://www.nukepedia.com/python/nodegraph/w_smartalign)_
 
 #### UI :label:
-- Channel_Hotbox
-- CloseAllProperties
-- SearchReplacePanel
-- W_hotbox 
+- `Channel_Hotbox`
+  - > _作者：Falk Hofmann_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/channel-hotbox](https://www.nukepedia.com/python/ui/channel-hotbox)_
+
+- `CloseAllProperties`
+  - > _作者：Max van Leeuwen_
+  - > _使用方法：使用对应快捷键可一次关闭所有已打开的 Node 面板和 Project Settings 面板。 对于习惯使用 Node 浮动面板的人非常适合（例如我）, 可以节省对操作空间的占用，nice :clap: ！_
+
+- `SearchReplacePanel`
+  - > _作者：Frank Rueter_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/searchreplacepanel](https://www.nukepedia.com/python/ui/searchreplacepanel)_
+
+- `W_hotbox `
   - > _作者：Wouter Gilsing_
-  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我人人编写的很多 scripts 也放在了 W_hotbox 中，因为实在是太方便了。_
