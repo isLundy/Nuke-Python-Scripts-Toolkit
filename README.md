@@ -107,9 +107,13 @@
 <br />
 
 #### NodeGraph :label:
+- `AlignDots`
+  - > _作者：Max van Leeuwen_
+  - > _使用方法：快捷键已被我更改，可配合 `AlignNodes`、`W_smartAlign`。使用[https://www.nukepedia.com/python/nodegraph/aligndots](https://www.nukepedia.com/python/nodegraph/aligndots)_
+
 - `AlignNodes`
   - > _作者：Frank Rueter_
-  - > _使用方法：快捷键已被我更改，配合 `W_smartAlign` 一同使用。[https://www.nukepedia.com/python/nodegraph/alignnodes](https://www.nukepedia.com/python/nodegraph/alignnodes)，_
+  - > _使用方法：快捷键已被我更改，可配合 `AlignDots`、`W_smartAlign` 使用。[https://www.nukepedia.com/python/nodegraph/alignnodes](https://www.nukepedia.com/python/nodegraph/alignnodes)，_
 
 - `MultiChannelSplit`
   - > _作者：Simon Jokuschies_
@@ -125,7 +129,11 @@
 
 - `W_smartAlign`
   - > _作者：Wouter Gilsing_
-  - > _使用方法：快捷键已被我更改，配合 `AlignNodes` 一同使用。[https://www.nukepedia.com/python/nodegraph/w_smartalign](https://www.nukepedia.com/python/nodegraph/w_smartalign)_
+  - > _使用方法：快捷键已被我更改，可配合 `AlignNodes`、`AlignNodes` 使用。[https://www.nukepedia.com/python/nodegraph/w_smartalign](https://www.nukepedia.com/python/nodegraph/w_smartalign)_
+
+<br />
+
+ > _`AlignDots`、`AlignNodes`、`W_smartAlign` 更改这三个 scripts 的快捷键的原因是为了相互配合适用，现在三者的快捷键已经全部关联到数字 0 - 9，在使用数字键盘操控并对齐节点时极为便利。_
 
 <br />
 
