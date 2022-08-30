@@ -79,12 +79,13 @@
   - > _作者：Simon Jokuschies_
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
 - openExploreDir
-  - > _作者: Thorsten 编写， Varun Hadkar 发布。（思路来源于 Thorsten，代码已全部被我更改。现已适用于 Windows、Linux、Mac，并添加了新功能）_
+  - > _作者：Lundy Hu (Yes, It's me !), （原作者：Thorsten 编写， Varun Hadkar 发布。思路来源于 Thorsten，代码现已全部被我更改。现已适用于 Windows、Linux、Mac，并添加了新功能）_
   - > 使用方法：
-    > 
 
 #### NodeGraph :label:
 - AlignNodes
+  - > 作者：Frank Rueter
+  - > 使用方法：[https://www.nukepedia.com/python/nodegraph/alignnodes](https://www.nukepedia.com/python/nodegraph/alignnodes)，快捷键已被我更改，请在 Nuke 中查看。
 - MultiChannelSplit
 - V_Tools
 - W_scaleTree
