@@ -51,7 +51,7 @@
 
 <br />
 
-什么 :question: 你还想了解怎么 **`uninstall`** :question: 直接 delete :wastebasket: 即可~
+什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 即可~
 - 只需删除 `.nuke` :file_folder: 文件夹内 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删可不删~
 
   ```python
@@ -71,14 +71,14 @@
 <br />
 
 #### 3D :label:
-- `animatedSnap3D`
+- **`animatedSnap3D`**
   - > _作者：Ivan Busquets
   - > _使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
 <br />
 
 #### Import_Export :label:
-- `CollectFiles`
+- **`CollectFiles`**
   - > _作者：Mariano Antico_
   - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
