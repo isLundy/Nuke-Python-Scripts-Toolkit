@@ -11,7 +11,7 @@
 
 我个人平时整合并制作了一个名为 `nuLibrary` :toolbox: 的工具库， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:、 `PthonScripts` :hammer_and_wrench:、 `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
 
-现只公开发布 `PythonScripts` :hammer_and_wrench:，后续可能会更新，但频率不会太高（或许半年？一年？三年？更新一次），前提是只要我还在呼吸。 `Gizmos` :hammer_and_wrench: 和 `Series` :hammer_and_wrench: 主要针对于我个人使用习惯做了 layout，与 `NukeSurvivalToolkit` 中的内容类似，其表面的最大区别是在 Nuke 中的 layout 不一样，所以暂不公开，无过多意义。
+现只公开发布 `PythonScripts` :hammer_and_wrench:。 `Gizmos` :hammer_and_wrench: 和 `Series` :hammer_and_wrench: 主要针对于我个人使用习惯做了 layout，与 `NukeSurvivalToolkit` 中的内容类似，其表面的最大区别是在 Nuke 中的 layout 不一样，所以暂不公开，无过多意义。
 
 在 `PythonScripts` :hammer_and_wrench: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 Scripts（脚本、命令或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
 
@@ -64,7 +64,7 @@
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
-:scroll: 以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式遵循 NukePedia，目前分了 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五类。有关的快捷键不在一一介绍，安装后请在 Nuke 中的 `PythonScripts` 菜单栏内查看。
+:scroll: 以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式遵循 NukePedia，目前分了 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五类。有关快捷键不再介绍，安装后请在 Nuke 中的 `PythonScripts` 菜单栏内查看。
 
 > 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower: **`如虎添翼`** :eagle:。
 
@@ -159,6 +159,6 @@
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :hammer_and_wrench: 中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
-- > 有些作者的主要代码块内设置了布局，若更改则对于以后的更新弊大于利。对于这些一般采用作者的默认设置。<p>对于 `W_hotbox`，看了它的使用方法后会发现它显示在了 `Edit` 菜单最下面和 `Preferences` 面板中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。所以无法显示在 `PythonScripts` :hammer_and_wrench: 中。
+- > 有些作者的主要代码块内设置了布局，若更改则对于以后的更新弊大于利。对于这些一般采用作者的默认设置。<p>对于 `W_hotbox`，看了它的使用方法后会发现它显示在了 `Edit` 菜单最下面和 `Preferences` 面板中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。所以无法显示在 `PythonScripts` :hammer_and_wrench: 中。</p>
 
 - > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动、自动运行、全程后台的 scripts，要显示它干嘛 :question: 干嘛 :question: 干嘛 :question:
