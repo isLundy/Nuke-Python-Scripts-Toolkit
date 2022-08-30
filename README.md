@@ -36,7 +36,7 @@
 > 若熟悉安装可略过
 
 1. 将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内
-2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
+2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关 :chicken:，:chicken: 你太美！），
       并将以下代码复制到文件中。
       
@@ -48,7 +48,13 @@
 
 > 想要深入了解 nuke 插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
-> 什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 就好了~（删除掉文件夹、文件或文件中的代码）
+什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 就好了~
+- 删除掉文件夹、文件和文件中的代码
+- 或者只删除 .nuke 文件内 init.py 文件中的下列代码  
+
+```python
+nuke.pluginAddPath('./nuLibrary')
+```
 
 <br />
 
