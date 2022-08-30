@@ -51,7 +51,7 @@
 
 <br />
 
-什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 即可~
+什么 :question: 你还想了解怎么 **`uninstall`** :question: 直接 delete :wastebasket: 即可~
 - 只需删除 `.nuke` :file_folder: 文件夹内 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删可不删~
 
   ```python
