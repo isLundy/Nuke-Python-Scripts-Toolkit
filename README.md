@@ -159,5 +159,8 @@
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :hammer_and_wrench: 中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
-- 有些作者的主要代码块内设置了布局，若更改则对于以后的更新弊大于利。对于这些一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后你会发现它显示在了 `Edit` 菜单最下面和 `Preferences` 面板中。
-- 有些是无法显示在 `PythonScripts` :hammer_and_wrench: 中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在像是 `Card`、 `Cube`、 `Camera` 这类三维节点面板的 `snap_menu` 旋钮中。所以没有必要显示在 `PythonScripts` :hammer_and_wrench: 中
+- > 有些作者的主要代码块内设置了布局，若更改则对于以后的更新弊大于利。对于这些一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后你会发现它显示在了 `Edit` 菜单最下面和 `Preferences` 面板中。
+
+- > 有些是无法显示在 `PythonScripts` :hammer_and_wrench: 中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在像是 `Card`、 `Cube`、 `Camera` 这类三维节点面板的 `snap_menu` 旋钮中。所以无法显示在 `PythonScripts` :hammer_and_wrench: 中。
+
+- > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动自动运行全程后台的 scripts，你要显示它干啥 :question: 干啥 :question: 干啥 :question:
