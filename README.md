@@ -15,6 +15,8 @@
 
 在 `PythonScripts` :hammer_and_wrench: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 Scripts（脚本、命令或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
 
+> 可通过单击文件标头来访问该目录。 每个标题都列在目录中，可单击标题导航到所选部分。
+
 <br />
 
 ## Download :books:
