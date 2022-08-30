@@ -61,7 +61,7 @@
 
 ## Introduce :books:
 
-:heavy_check_mark: 完成安装后可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 菜单栏，并且内有显示 **`快捷键`** ，敬请查看。
+完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 菜单栏，并且内有显示 **`快捷键`** ，敬请查看。
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
@@ -146,13 +146,13 @@
 
 - `W_hotbox `
   - > _作者：Wouter Gilsing_
-  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我人人编写的很多 scripts 也放在了 W_hotbox 中，因为实在是太方便了。_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的很多 scripts 也放在了 W_hotbox 中，因为实在是太方便了。_
 
 <br />
 
 `CreateOutDirs`
 - > _来源：Nuke 官方开发者文档_
-- > 使用方法：无需操作，打开 Nuke 后自动启用。它会在 `Write` 节点开始渲染前的那一刻自动会检测当前 `Write` 节点的文件路径是否存在，若为否，则先创建该目录然后再渲染。相当于主动勾选 	:ballot_box_with_check: 了 `Write` 节点内的 `create directories` 选项。只不过它无视 `create directories` 选项，无论是否勾选，都会运行 :heavy_check_mark: `CreateOutDirs`。
+- > _使用方法：无需操作，打开 Nuke 后自动启用。它会在 `Write` 节点开始渲染前的那一刻自动检测当前 `Write` 节点的文件目录是否存在，若为否，则先创建该目录然后再渲染。相当于主动勾选 	:ballot_box_with_check: 了 `Write` 节点中的 `create directories` 选项。只不过它无视 `create directories` 选项，无论是否勾选，都会运行 `CreateOutDirs` :heavy_check_mark:。_
 
 <br />
 
@@ -160,6 +160,6 @@
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :hammer_and_wrench: 中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
-- > 有些作者的主要代码块内设置了布局，若更改则对于以后的更新弊大于利。对于这些一般采用作者的默认设置。<p>对于 `W_hotbox`，看了它的使用方法后会发现它显示在了 `Edit` 菜单最下面和 `Preferences` 面板中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。所以无法显示在 `PythonScripts` :hammer_and_wrench: 中。</p>
+- > 有些作者的主要代码块内设置了布局，若更改则对于以后的更新弊大于利。对于这些一般采用作者的默认设置。<p>对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 `Edit` 菜单最下面和 `Preferences` 面板中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。所以无法显示在 `PythonScripts` :hammer_and_wrench: 中。</p>
 
 - > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动、自动运行、全程后台的 scripts，要显示它干嘛 :question: 干嘛 :question: 干嘛 :question:
