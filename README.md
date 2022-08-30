@@ -62,22 +62,28 @@
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
-:scroll: 以下为对于各种分类里 scripts 的介绍，分类方式与 NukePedia 中一致。有关 scripts 的快捷键不在下面介绍了，安装后请在 Nuke 中查看。
+:scroll: 以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式与 NukePedia 中一致（目前分了 **3D** :label:、**Import_Export** :label:、**Misc** :label:、**NodeGraph** :label:、**UI** :label: 五类）。有关 scripts 的快捷键不在下面介绍了，安装后请在 Nuke 中查看。
+
+<br />
 
 #### 3D :label:
 - `animatedSnap3D`
   - > _作者：Ivan Busquets
   - > _使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
+<br />
+
 #### Import_Export :label:
 - `CollectFiles`
   - > _作者：Mariano Antico_
   - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
+<br />
+
 #### Misc :label:
 - `Auto open .nk as NukeX`
   - > _作者：Max van Leeuwen_
-  - > _使用方法：需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下手动运行。[https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex](https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex)_
+  - > _使用方法：仅针对于 Windows 需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下手动运行。[https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex](https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex)_
 
 - `Default`
   - > _作者：Simon Jokuschies_
@@ -90,6 +96,8 @@
 - `readFromWrite`
   - > _作者：未知_
   - > _使用方法：表里如一，和字面意思一样。可使用快捷键从选定的 Write 节点读取输出的图像。_
+
+<br />
 
 #### NodeGraph :label:
 - `AlignNodes`
@@ -111,6 +119,8 @@
 - `W_smartAlign`
   - > _作者：Wouter Gilsing_
   - > _使用方法：快捷键已被我更改，配合 `AlignNodes` 一同使用。[https://www.nukepedia.com/python/nodegraph/w_smartalign](https://www.nukepedia.com/python/nodegraph/w_smartalign)_
+
+<br />
 
 #### UI :label:
 - `Channel_Hotbox`
