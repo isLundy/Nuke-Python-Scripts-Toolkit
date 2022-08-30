@@ -37,7 +37,7 @@
 
 1. 将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个`init.txt`文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
-   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关鸡，鸡你太美！:bomb::boom:），
+   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py` （右键用记事本方式打开或用你会的一种方式打开。若不会打开，请将电脑关 :chicken:，:chicken: 你太美！），
       并将以下代码复制到文件中。
       
       ```python
