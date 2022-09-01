@@ -23,7 +23,7 @@ nuLibrary 一直在作为个人使用，最近决定公开发布其中的 `Pytho
 
 > 若熟悉 GitHub 可略过
 
-点击右侧的 `Releases` > `latest`， 进入页面后点击 `Assets` 下的第一个 `.zip` 链接 :link: 就可以了。
+点击右侧的 `Releases` > `latest`， 进入页面后点击 `Assets` 下的第一个 `.zip` 链接 :link: 即可。
 
 <br />
 
