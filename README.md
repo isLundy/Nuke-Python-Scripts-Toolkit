@@ -7,7 +7,7 @@
 
 ## Perface :books:
 
-> 当你看到这个页面时说明你可以访问GitHub（很显然你看到了一句废话）, 若熟悉科学上网请使用代理访问 :rocket:（无需多言），若不熟悉可略过。
+> 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）, 若熟悉科学上网请使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
 我个人平时整合并制作了一个名为 `nuLibrary` 的工具库 :european_castle:（大约是在2018年12月，后续慢慢地不断优化）， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:、 `PthonScripts` :hammer_and_wrench:、 `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
 
@@ -21,11 +21,11 @@ nuLibrary 一直在作为个人使用，最近决定公开发布其中的 `Pytho
 
 ## Download :books:
 
-> 若熟悉GitHub可略过
+> 若熟悉 GitHub 可略过
 
 点击右侧的 `Releases` > `latest` 会进入到以下页面
 
-点击 `Assets` 下的第一个.zip链接 :link: 就可以了。
+点击 `Assets` 下的第一个 `.zip` 链接 :link: 就可以了。
 
 <br />
 
