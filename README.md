@@ -9,7 +9,7 @@
 
 > 当你看到这个页面时说明你可以访问GitHub（很显然你看到了一句废话）, 若熟悉科学上网请使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
-我个人平时整合并制作了一个名为 `nuLibrary` :toolbox: 的工具库， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:、 `PthonScripts` :hammer_and_wrench:、 `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
+我个人平时整合并制作了一个名为 `nuLibrary` 的工具库 :classical_building:， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:、 `PthonScripts` :hammer_and_wrench:、 `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
 
 现只公开发布 `PythonScripts` :hammer_and_wrench:。 `Gizmos` :hammer_and_wrench: 和 `Series` :hammer_and_wrench: 主要针对于我个人使用习惯做了 layout，与 `NukeSurvivalToolkit` 中的内容类似，其表面的最大区别是在 Nuke 中的 layout 不一样，所以暂不公开，无过多意义。
 
@@ -35,9 +35,9 @@
 
 > 若熟悉安装可略过
 
-1. 下载 `.zip` :briefcase: 文件解压后将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内
-2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
-   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
+1. 下载 `.zip` 文件 :briefcase: 解压后将 `nuLibrary` 文件夹 :file_folder: 复制到用户目录的 `.nuke` 文件夹 :file_folder: 内。
+2. - 若 `.nuke` 文件夹 :file_folder: 内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
+   - 若 `.nuke` 文件夹 :file_folder: 内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
      （右键用记事本方式打开或用你会的一种方式打开。若不会打开 :fearful:，请将电脑关 :chicken: :exclamation:）
       
@@ -63,7 +63,7 @@
 
 ## Introduce :books:
 
-完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 菜单栏。
+完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 菜单。
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
