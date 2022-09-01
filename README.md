@@ -9,9 +9,9 @@
 
 > 当你看到这个页面时说明你可以访问GitHub（很显然你看到了一句废话）, 若熟悉科学上网请使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
-我个人平时整合并制作了一个名为 `nuLibrary` 的工具库 :european_castle:， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:、 `PthonScripts` :hammer_and_wrench:、 `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
+我个人平时整合并制作了一个名为 `nuLibrary` 的工具库 :european_castle:（大约是在2018年12月，后续慢慢地不断优化）， nuLibrary 内含有 `Gizmos` :hammer_and_wrench:、 `PthonScripts` :hammer_and_wrench:、 `Series` :hammer_and_wrench: 三个不同的工具包，里面含有我平时搜集并使用的 gizmo 和 script，大部分来自于网络，少部分为自己编写。
 
-现只公开发布 `PythonScripts` :hammer_and_wrench:。 `Gizmos` :hammer_and_wrench: 和 `Series` :hammer_and_wrench: 主要针对于我个人使用习惯做了 layout，与 `NukeSurvivalToolkit` 中的内容类似，其表面的最大区别是在 Nuke 中的 layout 不一样，所以暂不公开，无过多意义。
+nuLibrary 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :hammer_and_wrench:。 `Gizmos` :hammer_and_wrench: 和 `Series` :hammer_and_wrench: 主要针对于我个人使用习惯做了排版布局，与 `NukeSurvivalToolkit` 中的内容类似，其表面的最大区别是在 Nuke 中的布局，所以暂不公开，无过多意义。
 
 在 `PythonScripts` :hammer_and_wrench: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 Scripts（脚本、命令或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
 
