@@ -73,6 +73,8 @@
 
 > 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower: **`如虎添翼`** :eagle:。
 
+<br />
+
 #### 3D :label:
 - `animatedSnap3D`
   - > _作者：Ivan Busquets_
@@ -164,10 +166,19 @@
 
 <br />
 
-## Question :books:
+#### Question :question:
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜单中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
 - > 有些作者的主要代码块内设置了布局，若更改则对于以后的更新弊大于利。对于这些一般采用作者的默认设置。<p>对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 `Edit` 菜单最下面和 `Preferences` 面板中。对于 `animatedSnap3D`，使用方法中也有介绍到。它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。所以无法显示在 `PythonScripts` :hammer_and_wrench: 中。</p>
 
 - > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动、自动运行、全程后台的 scripts，要显示它干嘛 :question: 干嘛 :question: 干嘛 :question:
+
+<br />
+
+### PythonScript 文件夹 :file_folder: 结构
+
+## Appendix :books:
+
+在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 这些创作者、分享者 :sparkling_heart:。
+
