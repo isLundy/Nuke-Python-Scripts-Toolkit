@@ -63,15 +63,15 @@
 
 ## Introduce :books:
 
-完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 菜单。
+### PythonScripts 菜单 :scroll:
+
+完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 菜单 :scroll:。
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
-:scroll: 以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式遵循 `NukePedia`，目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，安装后请在 Nuke 中的 `PythonScripts` 菜单内查看。
+以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式遵循 `NukePedia`，目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，安装后请在 Nuke 中的 `PythonScripts` 菜单 :scroll: 内查看。
 
 > 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower: **`如虎添翼`** :eagle:。
-
-<br />
 
 #### 3D :label:
 - `animatedSnap3D`
