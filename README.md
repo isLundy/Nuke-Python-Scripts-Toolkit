@@ -179,7 +179,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 ### PythonScripts :file_folder: 文件夹结构
 > 若不熟悉 Python 可略过。
 
-- 若在现有基础上添加 script
+- 在现有基础上添加 script
 
   安装到 .nuke :file_folder: 文件夹后可以看到以下结构示例：
 
@@ -194,7 +194,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
   
   `.nuke/nuLibrary/PythonScripts/menu.py` 非自动向 Nuke 添加，需要手动编写，请悉知。
 
-- 若自定义方式添加
+- 自定义方式添加 scripts
 
   请自行修改 `init.py` 和 `menu.py`。
 
