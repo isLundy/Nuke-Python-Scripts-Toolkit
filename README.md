@@ -11,7 +11,7 @@
 
 <br />
 
-## Perface :books:
+## 前言 :books:
 
 我个人平时整合并制作了一个名为 `nuLibrary` :house_with_garden: 的工具库（大约是在2018年12月，后续一直慢慢地不断优化），`nuLibrary` :house_with_garden: 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，少部分为自己编写。
 
@@ -21,7 +21,7 @@
 
 <br />
 
-## Download :books:
+## 下载 :books:
 
 > 若熟悉 GitHub 可略过
 
@@ -29,7 +29,7 @@
 
 <br />
 
-## Install :books:
+## 安装 :books:
 
 > 若熟悉安装可略过
 
@@ -59,7 +59,7 @@
 
 <br />
 
-## Introduce :books:
+## 介绍 :books:
 
 ### PythonScripts 菜单 :scroll:
 
@@ -166,7 +166,7 @@
 
 <br />
 
-#### Question :question:
+#### 问答 :question:
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scroll: 菜单中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
@@ -202,6 +202,6 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
 <br />
 
-## Appendix :books:
+## 附录 :books:
 
 在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Josh Parks`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 以及 Nuke 社区的其他开发者、分享者。 :sparkling_heart:
