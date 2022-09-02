@@ -7,7 +7,7 @@
 
 目录
 
-[前言](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/blob/main/README.md#%E5%89%8D%E8%A8%80-books)
+[前言](#前言-books)
 
 > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
