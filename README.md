@@ -181,14 +181,16 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 
 | .nuke         | /nuLibrary    | /PythonScripts | /UI     | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
 | :---          | :---          | :---           | :---    | :---            | :---        |
-|               | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名   | script 文件夹名  | script 文件  |
-|               |               | 一级目录        | 二级目录 | 三级目录         |             |
+|               | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | script 文件夹名 :arrow_heading_up: | script 文件:arrow_heading_up: |
+|               |               | 一级目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
 
 `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`，所有的scripts都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
 
 `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的目录（也是就会自动添加 PythonScripts 目录）。
 
 若想自定义方式添加路径可自行更改 init.py。
+
+> 请不要使用 os.walk() 遍历添加所有文件目录。例如 W_hotbox 包含很多文件，如果添加了所有目录，可能会导致 Nuke 打开速度变慢（或其他未知问题），经测试打开速度会变慢约 20 - 30 s。
 
 ## Appendix :books:
 
