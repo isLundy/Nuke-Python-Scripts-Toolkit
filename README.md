@@ -17,9 +17,7 @@
     + [问答 :question: :exclamation:](#问答-question-exclamation)
   * [PythonScripts :toolbox: 文件夹结构](#pythonscripts-toolbox-文件夹结构)
 - [附录 :books:](#附录-books)
-> 文章或许有些长，每个标题都列在目录中，可单击标题导航到所选部分。
-
-<br />
+> 文章或许有些长，每个标题都列在目录中，可单击标题直接导航到所选部分。
 
 > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
