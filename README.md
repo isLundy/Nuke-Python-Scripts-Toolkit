@@ -35,7 +35,7 @@ nuLibrary 一直在作为个人使用，最近决定公开发布其中的 `Pytho
 2. - 若 `.nuke` 文件夹 :file_folder: 内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` 文件夹 :file_folder: 内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
-     （右键用记事本方式打开或用你会的一种方式打开。若不会打开 :fearful:，请将电脑关 :chicken: :exclamation:）
+     （ `右键用记事本方式打开文件` 或用 `你熟悉的一种方式打开`。若不会打开 :fearful:，请将电脑关 :chicken: :exclamation:）
       
      ```python
      import nuke
