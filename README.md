@@ -152,7 +152,7 @@
 
 - `CloseAllProperties`
   - > _作者：Max van Leeuwen_
-  - > _使用方法：使用对应快捷键可一次关闭所有已打开的 Node 面板和 Project Settings 面板。 对于习惯使用 Node 浮动面板的人非常适合（例如我 ~）, 可以减少对操作空间的占用，nice :clap: ！_
+  - > _使用方法：快捷键已更改为源自 Josh Parks 的建议。使用对应快捷键可一次关闭所有已打开的 Node 面板和 Project Settings 面板。 对于习惯使用 Node 浮动面板的人非常适合（例如我 ~）, 可以减少对操作空间的占用，nice :clap: ！_
 
 - `SearchReplacePanel`
   - > _作者：Frank Rueter_
