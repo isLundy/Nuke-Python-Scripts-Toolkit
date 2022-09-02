@@ -69,34 +69,34 @@
 
 以下为 `PythonScripts` :toolbox: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，安装后请在 Nuke 中的 `PythonScripts` :scroll: 菜单内查看。
 
-> 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer_and_pick: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:、 **`如虎添翼`** :eagle:。
+> 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer_and_wrench: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:、 **`如虎添翼`** :eagle:。
 
 <br />
 
 #### 3D :label:
-- `animatedSnap3D`
+- `animatedSnap3D` :hammer_and_wrench:
   - > _作者：Ivan Busquets_
   - > _使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
 <br />
 
 #### Import_Export :label:
-- `CollectFiles`
+- `CollectFiles` :hammer_and_wrench:
   - > _作者：Mariano Antico_
   - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
-- `CreateOutDirs`
+- `CreateOutDirs` :hammer_and_wrench:
   - > _来源：Nuke 官方开发者文档_
   - > _使用方法：无需操作，打开 Nuke 后自动启用。它会在 `Write` 节点开始渲染前的那一刻自动检测当前 `Write` 节点的文件目录是否存在，若为否，则先创建该目录然后再渲染。相当于主动勾选 	:ballot_box_with_check: 了 `Write` 节点中的 `create directories` 选项。只不过它无视 `create directories` 选项，无论是否勾选，都会运行 `CreateOutDirs` :heavy_check_mark:。待发布_
 
 <br />
 
 #### Misc :label:
-- `Auto open .nk as NukeX`
+- `Auto open .nk as NukeX` :hammer_and_wrench:
   - > _作者：Max van Leeuwen_
   - > _使用方法：仅针对于 Windows 系统，需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下手动运行。[https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex](https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex)_
 
-- `Default`
+- `Default` :hammer_and_wrench:
   - > _作者：Simon Jokuschies_
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
 
