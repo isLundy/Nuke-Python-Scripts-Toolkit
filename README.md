@@ -3,7 +3,7 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
-可以通过单击文件标头中的&nbsp;<img src='/images/list-ul-solid.png'>&nbsp;来访问该目录。 每个标题都列在目录中，您可以单击标题导航到所选部分。
+可以通过单击文件标头中的 &nbsp; <img src='/images/list-ul-solid.png'> &nbsp; 来访问该目录。 每个标题都列在目录中，您可以单击标题导航到所选部分。
 
 目录
 - [前言 :books:](#前言-books)
@@ -21,7 +21,7 @@
 - [附录 :books:](#附录-books)
 > 文章或许有些长，每个标题都列在目录中，可单击标题直接导航到所选部分。
 
-> 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。
+<!--- > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。 -->
 
 <br />
 
@@ -31,7 +31,7 @@
 
 `nuLibrary` :house_with_garden: 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :toolbox:。 `Gizmos` :toolbox: 和 `Series` :toolbox: 主要针对于我个人使用习惯做了排版布局，与 `NukeSurvivalToolkit` 中的内容相似，其表面的最大区别就是在 Nuke 中的布局，所以暂不公开，无太多意义。
 
-在 `PythonScripts` :toolbox: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 Scripts（脚本、命令或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
+在 `PythonScripts` :toolbox: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的脚本（或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
 
 <br />
 
@@ -83,7 +83,7 @@
 
 <br />
 
-以下为 `PythonScripts` :toolbox: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
+以下为 `PythonScripts` :toolbox: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应脚本继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
 
 > 如若感兴趣建议尽可能地熟悉 `W_hotbox`（下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:，若同时了解Python更是 **`如虎添翼`** :eagle:。
 
@@ -117,7 +117,7 @@
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
 
 - `openExploreDir`
-  - > _作者：Lundy Hu (Yes, It's me !), （原名：winExploreDir，原作者：Thorsten 编写，Varun Hadkar 发布。思路来源于 Thorsten，名称和代码现已全部被我更改，已适用于 Windows、Linux、Mac，并添加了新功能）_
+  - > _（原名：winExploreDir，原作者：Thorsten 编写，Varun Hadkar 发布。思路来源于 Thorsten，名称和代码现已全部被我更改并重新发布于 NukePedia，已适用于 Windows、Linux、Mac，并添加了新功能）_
   - > _使用方法：待发布_
 
 - `readFromWrite`
@@ -153,7 +153,7 @@
 
 <br />
 
- > _`AlignDots`、`AlignNodes`、`W_smartAlign` 现在三者的快捷键已关联到 `Alt + 0 2 4 5 6 8`，更改这三个 scripts 的快捷键的原因是为了相互配合适用，在使用数字键盘对齐节点时极为便利。_
+ > _`AlignDots`、`AlignNodes`、`W_smartAlign` 现在三者的快捷键已关联到 `Alt + 0 2 4 5 6 8`，更改这三个脚本的快捷键的原因是为了相互配合适用，在使用数字键盘对齐节点时极为便利。_
 
 <br />
 
@@ -176,7 +176,7 @@
 
 - `W_hotbox `
   - > _作者：Wouter Gilsing_
-  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的一些 scripts 也放在了 W_hotbox 中，因为实在是太方便了。_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的一些脚本 也放在了 W_hotbox 中，因为实在是太方便了。_
 
 <br />
 
@@ -186,7 +186,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
 - > 有些弊大于利。有些作者的主要代码块内设置了布局，为方便以后的更新一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 Nuke 的 `Edit` 菜单最下面一项和 `Preferences` 面板最下面一项。对于 `animatedSnap3D`，使用方法中也有介绍到，它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。
 
-- > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动、自动运行、全程后台的 scripts。
+- > 有些没有必要显示。像 `CreateOutDirs` 这类自动启动、自动运行、全程后台的脚本。
 
 <br />
 
@@ -202,7 +202,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
   |       | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | script 文件夹名 :arrow_heading_up: | script 文件:arrow_heading_up: |
   |       |            | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
 
-  `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的 scripts 都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
+  `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的脚本都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
 
   `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的目录路径（原 nuLibrary 下有 Gizmos、PythonScripts、Series 文件夹，因现只公开 PythonScripts，所以现在是会自动添加 PythonScripts 文件夹路径）。
   
