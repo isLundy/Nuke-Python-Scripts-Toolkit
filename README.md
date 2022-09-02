@@ -182,13 +182,12 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 |               | 工具库名       | 工具包名        | 分类名   | script 文件夹名  | script  |
 |               |               | 一级目录        | 二级目录 | 三级目录         |         |
 
-`.nuke/nuLibrary/PythonScripts/init.py` 自动添加 `PythonScripts`目录下的第三级目录， 因为 `PythonScripts` 下的二级目录是分类名，无需添加到 Nuke 的插件路径中。
+`.nuke/nuLibrary/PythonScripts/init.py` 会自动添加 `PythonScripts`目录下的第三级目录， 因为 `PythonScripts` 下的二级目录是分类名，无需添加到 Nuke 的插件路径中。
 
-`.nuke/nuLibrary/init.py` 自动添加 `nuLibrary` 目录下的文件夹的目录。
+`.nuke/nuLibrary/init.py` 会自动添加 `nuLibrary` 目录下的文件夹的目录。
 
 若想自定义添加路径可自行更改 init.py。
 
 ## Appendix :books:
 
 在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 以及 Nuke 社区的其他创作者、分享者。 :sparkling_heart:
-
