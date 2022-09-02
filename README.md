@@ -190,7 +190,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
   `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的 scripts 都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
 
-  `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的路径（也就是会自动添加 PythonScripts）。
+  `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的目录路径（原 nuLibrary 下有 Gizmos、PythonScripts、Series 文件夹，因现只公开 PythonScripts，所以现在是会自动添加 PythonScripts 文件夹路径）。
   
   `.nuke/nuLibrary/PythonScripts/menu.py` 非自动向 Nuke 添加，需要手动编写，请悉知。
 
@@ -198,7 +198,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
   请自行修改 `init.py` 和 `menu.py`。
 
-  > 使用 os.walk() 等类似代码请不要遍历添加 `所有` 文件目录路径，请利用适当的条件判断只添加需求的目录即可，否则可能会导致 Nuke 打开速度变慢或其他未知问题，原因是某些插件文件夹内含有很多的 .py 文件，但这些文件夹路径都不需要添加到 Nuke 的插件路径中（经测试打开速度会变慢约 20 - 30 s）。
+  > 使用 os.walk() 等类似代码请不要遍历添加 `所有` 目录路径，请利用适当的条件判断只添加需求的目录即可，否则可能会导致 Nuke 打开速度变慢或其他未知问题，原因是某些插件文件夹内含有很多的 .py 文件，但这些文件夹路径都不需要添加到 Nuke 的插件路径中（经测试打开速度会变慢约 20 - 30 s）。
 
 <br />
 
