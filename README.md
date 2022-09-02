@@ -3,6 +3,8 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
+可以通过单击文件标头中的  <img src='/images/list-ul-solid.png'>  来访问该目录。 每个标题都列在目录中，您可以单击标题导航到所选部分。
+
 目录
 - [前言 :books:](#前言-books)
 - [下载 :books:](#下载-books)
