@@ -5,9 +5,9 @@
 
 <br />
 
-- [前言 :books:](#----books-)
-- [下载 :books:](#----books-)
-- [安装 :books:](#----books-)
+- [前言 :books:](#前言-books)
+- [下载 :books:](#下载-books)
+- [安装 :books:](#安装-books)
 - [介绍 :books:](#----books-)
   * [PythonScripts :scroll: 菜单](#pythonscripts--scroll----)
     + [3D :label:](#3d--label-)
