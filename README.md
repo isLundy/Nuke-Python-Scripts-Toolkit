@@ -177,9 +177,9 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 
 示例
 
-| .nuke         | /nuLibrary    | /PythonScripts | /UI | /W_hotbox |
-| :-----------: | :-------------: | :-------------:  | ------------- | ------------- |
-|       | 工具库名 | 工具包名 | 分类名 | 脚本名 |
+| .nuke         | /nuLibrary    | /PythonScripts | /UI   | /W_hotbox |
+| :---:         | :---:         | :---:          | :---: | :---:     |
+|               | 工具库名       | 工具包名        | 分类名 | 脚本文件夹名 |
 |   |   | 一级目录 | 二级目录 | 三级目录 |
 
 `.nuke/nuLibrary/init.py` 和 `.nuke/nuLibrary/PythonScripts/init.py` 会按照我的规则自动添加文件夹 :file_folder: 目录。若需自定义，可自行更改。
