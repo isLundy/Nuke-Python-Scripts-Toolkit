@@ -96,7 +96,7 @@
   - > _作者：Max van Leeuwen_
   - > _使用方法：仅针对于 Windows 系统，需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下手动运行。[https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex](https://www.nukepedia.com/miscellaneous/auto-open-nk-as-nukex)_
 
-- `Default` :hammer_and_wrench:
+- `Default`
   - > _作者：Simon Jokuschies_
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
 
@@ -106,7 +106,7 @@
 
 - `readFromWrite`
   - > _作者：未知_
-  - > _使用方法：表里如一，和字面意思一样。可使用快捷键从选定的 Write 节点读取输出的图像。_
+  - > _使用方法：表里如一，同字面意思。可使用快捷键从选定的 Write 节点读取渲染的图像。_
 
 <br />
 
@@ -125,7 +125,7 @@
 
 - `V_Tools`
   - > _作者： Victor Perez_
-  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个 scripts（另外一个由上面 readFromWrite 替代）。功能同字面意思一样。_
+  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个 scripts（另外一个由上面 readFromWrite 替代）。功能同字面意思。_
 
 - `W_scaleTree`
   - > _作者：Wouter Gilsing_
