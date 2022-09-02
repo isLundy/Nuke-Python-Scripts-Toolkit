@@ -3,18 +3,11 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
-<p><svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-   <circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
-</svg></p>
-
 <br />
-
-<i class="fa-solid fa-list-ul"></i>
 
 > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
 > 文章或许有些长，可通过单击文件标头来访问目录。 每个标题都列在目录中，可单击标题导航到所选部分。
-
 
 <br />
 
