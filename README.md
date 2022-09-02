@@ -31,9 +31,9 @@ nuLibrary 一直在作为个人使用，最近决定公开发布其中的 `Pytho
 
 > 若熟悉安装可略过
 
-1. 下载 `.zip` 文件 :briefcase: 解压后将 `nuLibrary` 文件夹 :file_folder: 复制到用户目录的 `.nuke` 文件夹 :file_folder: 内。
-2. - 若 `.nuke` 文件夹 :file_folder: 内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
-   - 若 `.nuke` 文件夹 :file_folder: 内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
+1. 下载 `.zip` :briefcase: 文件解压后将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内。
+2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则创建一个 `init.txt` 文件，并将以下代码复制到文件中， 最后将 `init.txt` 更改为 `init.py`
+   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
      （ `右键用记事本方式打开文件` 或用 `你熟悉的一种方式打开`。若不会打开 :fearful:，请将电脑关 :chicken: :exclamation:）
       
@@ -65,7 +65,7 @@ nuLibrary 一直在作为个人使用，最近决定公开发布其中的 `Pytho
 
 <p align="center"><img src="./images/PythonScript_layout.png"></p>
 
-以下为 `PythonScripts` :hammer_and_wrench: 中各种分类的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，安装后请在 Nuke 中的 `PythonScripts` 菜单 :scroll: 内查看。
+以下为 `PythonScripts` :hammer_and_wrench: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，安装后请在 Nuke 中的 `PythonScripts` 菜单 :scroll: 内查看。
 
 > 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower: **`如虎添翼`** :eagle:。
 
@@ -182,11 +182,11 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 |               | 工具库名       | 工具包名        | 分类名   | script 文件夹名  | script  |
 |               |               | 一级目录        | 二级目录 | 三级目录         |         |
 
-`.nuke/nuLibrary/PythonScripts/init.py` 会自动添加 `PythonScripts`目录下的第三级目录， 因为 `PythonScripts` 下的二级目录是分类名，无需添加到 Nuke 的插件路径中。
+`.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的第三级目录， 因为 `PythonScripts` 下的二级目录是分类名，无需添加到 Nuke 的插件路径中。
 
-`.nuke/nuLibrary/init.py` 会自动添加 `nuLibrary` 目录下的文件夹的目录。
+`.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的目录。
 
-若想自定义添加路径可自行更改 init.py。
+若想自定义方式添加路径可自行更改 init.py。
 
 ## Appendix :books:
 
