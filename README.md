@@ -172,17 +172,17 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 
 <br />
 
-### PythonScript 文件夹 :file_folder: 结构
+### PythonScript :file_folder: 文件夹结构
 > 若不熟悉编程可略过。
 
 示例
 
-| .nuke         | /nuLibrary    | /PythonScripts | /UI     | /W_hotbox       | ---     |
+| .nuke         | /nuLibrary    | /PythonScripts | /UI     | /AnimationMaker<p>Channel_Hotbox</p><p>CloseAllProperties</p><p>SearchReplacePanel</p><p>/W_hotbox</p>       | -       |
 | :---:         | :---:         | :---:          | :---:   | :---:           | :---:   |
 |               | 工具库名       | 工具包名        | 分类名   | script 文件夹名  | script  |
 |               |               | 一级目录        | 二级目录 | 三级目录         |         |
 
-`.nuke/nuLibrary/init.py` 和 `.nuke/nuLibrary/PythonScripts/init.py` 会按照我的规则自动添加文件夹 :file_folder: 目录。若需自定义，可自行更改。
+`.nuke/nuLibrary/init.py` 和 `.nuke/nuLibrary/PythonScripts/init.py` 会按照代码规则自动添加 :file_folder: 文件夹目录。若需自定义，可自行更改。
 请不要使用 os.walk() 等
 
 ## Appendix :books:
