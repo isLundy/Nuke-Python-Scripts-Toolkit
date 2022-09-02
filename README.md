@@ -35,7 +35,7 @@
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则新建一个 `init.txt` 文件，并将以下代码复制到文件中，最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
-     （ `右键用记事本方式打开文件` 或用 `你熟悉的一种方式打开`。若不会打开 :fearful:，请将电脑关 :chicken: :exclamation:）
+     （ `右键用记事本方式打开文件` 或用 `你熟悉的一种方式打开`。若不会打开 :fearful:，请将电脑关 :chicken:，拔掉电源 :battery:，放入冰箱 :exclamation:）
       
      ```python
      import nuke
