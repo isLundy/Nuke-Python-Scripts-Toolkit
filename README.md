@@ -190,8 +190,8 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 
 若想自定义方式添加路径可自行更改 init.py。
 
-> 请不要使用 os.walk() 遍历添加所有文件目录。例如 W_hotbox 包含很多文件，若添加了所有目录，可能会导致 Nuke 打开速度变慢（或其他未知问题），经测试打开速度会变慢约 20 - 30 s。
+> 请不要走捷径使用 os.walk() 遍历添加所有文件目录，只添加需求的目录即可。例如 W_hotbox 包含很多文件，若添加了所有目录，可能会导致 Nuke 打开速度变慢（或其他未知问题），经测试打开速度会变慢约 20 - 30 s。
 
 ## Appendix :books:
 
-在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 以及 Nuke 社区的其他创作者、分享者。 :sparkling_heart:
+在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 以及 Nuke 社区的其他开发者、分享者。 :sparkling_heart:
