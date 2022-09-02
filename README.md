@@ -208,7 +208,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
   
   `.nuke/nuLibrary/PythonScripts/menu.py` 非自动向 Nuke 添加，需要手动编写，请悉知。
 
-- 自定义方式添加 scripts
+- 自定义方式添加 script
 
   请自行修改 `init.py` 和 `menu.py`。
 
