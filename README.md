@@ -176,17 +176,17 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
 <br />
 
-### PythonScripts :file_folder: 文件夹结构
+### PythonScripts :toolbox: 文件夹结构
 > 若不熟悉 Python 可略过。
 
 - 在现有基础上添加 script
 
   安装到 .nuke :file_folder: 文件夹后可以看到以下结构示例：
 
-  | .nuke   | /nuLibrary    | /PythonScripts | /UI     | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
-  | :---    | :---          | :---           | :---    | :---            | :---        |
-  |         | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | script 文件夹名 :arrow_heading_up: | script 文件:arrow_heading_up: |
-  |         |               | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
+  | .nuke | /nuLibrary | /PythonScripts | /UI  | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
+  | :---  | :---       | :---           | :--- | :---            | :---        |
+  |       | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | script 文件夹名 :arrow_heading_up: | script 文件:arrow_heading_up: |
+  |       |            | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
 
   `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的 scripts 都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
 
