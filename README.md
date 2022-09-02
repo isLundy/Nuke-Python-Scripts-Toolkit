@@ -166,7 +166,7 @@
 
 <br />
 
-#### 问答 :question:
+#### 问答 :question: :exclamation:
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scroll: 菜单中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
