@@ -3,21 +3,11 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
+<p>hhhh<svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-list-unordered" aria-label="The unordered list icon" role="img"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>hhhh</p>
+
 <br />
 
-- [前言 :books:](#前言-books)
-- [下载 :books:](#下载-books)
-- [安装 :books:](#安装-books)
-- [介绍 :books:](#----books-)
-  * [PythonScripts :scroll: 菜单](#pythonscripts--scroll----)
-    + [3D :label:](#3d--label-)
-    + [Import_Export :label:](#import-export--label-)
-    + [Misc :label:](#misc--label-)
-    + [NodeGraph :label:](#nodegraph--label-)
-    + [UI :label:](#ui--label-)
-    + [问答 :question: :exclamation:](#----question---exclamation-)
-  * [PythonScripts :toolbox: 文件夹结构](#pythonscripts--toolbox-------)
-- [附录 :books:](#----books-)
+<i class="fa-solid fa-list-ul"></i>
 
 > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
