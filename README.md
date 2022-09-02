@@ -9,7 +9,7 @@
 
 > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
-我个人平时整合并制作了一个名为 `nuLibrary` :house_with_garden: 的工具库（大约是在2018年12月，后续不断地慢慢优化），`nuLibrary` :house_with_garden: 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，少部分为自己编写。
+我个人平时整合并制作了一个名为 `nuLibrary` :house_with_garden: 的工具库（大约是在2018年12月，后续一直慢慢地不断优化），`nuLibrary` :house_with_garden: 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，少部分为自己编写。
 
 `nuLibrary` :house_with_garden: 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :toolbox:。 `Gizmos` :toolbox: 和 `Series` :toolbox: 主要针对于我个人使用习惯做了排版布局，与 `NukeSurvivalToolkit` 中的内容相似，其表面的最大区别就是在 Nuke 中的布局，所以暂不公开，无太多意义。
 
@@ -44,7 +44,7 @@
      ```
 3. 打开 Nuke :radioactive: ，尽情享用 :yum: ~ :grey_exclamation:
 
-> 想要深入了解 nuke 插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
+> 想要深入了解 Nuke 插件安装？请查看官方指导 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
 <br />
 
@@ -69,7 +69,7 @@
 
 以下为 `PythonScripts` :toolbox: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
 
-> 如若感兴趣建议尽可能地熟悉 `W_hotbox`（下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:、 **`如虎添翼`** :eagle:。
+> 如若感兴趣建议尽可能地熟悉 `W_hotbox`（下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:，若同时了解Python更是 **`如虎添翼`** :eagle:。
 
 <br />
 
@@ -152,7 +152,7 @@
 
 - `CloseAllProperties`
   - > _作者：Max van Leeuwen_
-  - > _使用方法：快捷键已更改为源自 Josh Parks 使用的热键。使用对应快捷键可一次关闭所有已打开的 Node 面板和 Project Settings 面板。 对于习惯使用 Node 浮动面板的人非常适合（例如我 ~）, 可以减少对操作空间的占用，nice :clap: ！_
+  - > _使用方法：快捷键已更改为源自 Josh Parks 使用的热键（熟练后很好用 :clap:）。使用快捷键可一次关闭所有已打开的 Node 面板和 Project Settings 面板。 对于习惯使用 Node 浮动面板的人非常适合（例如我 ~）, 可以减少对操作空间的占用，nice :clap: ！_
 
 - `SearchReplacePanel`
   - > _作者：Frank Rueter_
