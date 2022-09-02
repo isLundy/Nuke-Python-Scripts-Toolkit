@@ -69,7 +69,7 @@
 
 以下为 `PythonScripts` :toolbox: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
 
-> 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer_and_wrench: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:、 **`如虎添翼`** :eagle:。
+> 如若感兴趣建议尽可能地熟悉 `W_hotbox`（下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:、 **`如虎添翼`** :eagle:。
 
 <br />
 
