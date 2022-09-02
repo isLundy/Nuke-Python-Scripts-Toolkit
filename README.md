@@ -35,7 +35,7 @@
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则新建一个 `init.txt` 文件，并将以下代码复制到文件中，最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
-     （ `右键用记事本方式打开文件` 或用 `你熟悉的一种方式打开`。若不会打开 :fearful:，请将电脑关 :chicken:，拔掉电源 :battery:，放入冰箱 :exclamation:）
+     （ `右键用记事本方式打开文件` 或用 `你熟悉的一种方式打开`。若不会打开 :fearful:，请将电脑关 :chicken:，拔掉电源 :battery:，放入冰箱 :snowflake: :exclamation:）
       
      ```python
      import nuke
@@ -69,7 +69,7 @@
 
 以下为 `PythonScripts` :toolbox: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应 script 继续添加分类）。有关快捷键，安装后请在 Nuke 中的 `PythonScripts` :scroll: 菜单内查看。
 
-> 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:、 **`如虎添翼`** :eagle:。
+> 如若感兴趣建议尽可能地熟悉 `W_hotbox` :hammer_and_pick: （下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:、 **`如虎添翼`** :eagle:。
 
 <br />
 
