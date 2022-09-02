@@ -181,20 +181,24 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
 - 若在现有基础上添加 script
 
-打开下载的 :file_folder: 文件夹可以看到以下结构示例：
+  安装到 .nuke :file_folder: 文件夹后可以看到以下结构示例：
 
-| /nuLibrary    | /PythonScripts | /UI     | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
-| :---          | :---           | :---    | :---            | :---        |
-| 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | script 文件夹名 :arrow_heading_up: | script 文件:arrow_heading_up: |
-|               | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
+  | .nuke   | /nuLibrary    | /PythonScripts | /UI     | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
+  |         | :---          | :---           | :---    | :---            | :---        |
+  |         | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | script 文件夹名 :arrow_heading_up: | script 文件:arrow_heading_up: |
+  |         |               | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
 
-`.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`，所有的 scripts 都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
+  `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`，所有的 scripts 都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
 
-`.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的目录（也就是会自动添加 PythonScripts 目录）。
+  `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的目录（也就是会自动添加 PythonScripts 目录）。
+  
+  `.nuke/nuLibrary/menu.py` 的内容为手动写入
 
-- 若自定义方式添加路径可自行更改 init.py。
+- 若自定义方式添加
 
-> 请不要走捷径使用 os.walk() 遍历添加所有文件目录，请利用适当的条件只添加需求的目录即可。例如 W_hotbox 包含很多文件，若添加了所有目录，可能会导致 Nuke 打开速度变慢（或其他未知问题），经测试打开速度会变慢约 20 - 30 s。
+  请自行修改 init.py 和 menu.py。
+
+  > 请不要走捷径使用 os.walk() 遍历添加所有文件目录，请利用适当的条件只添加需求的目录即可。例如 W_hotbox 包含很多文件，若添加了所有目录，可能会导致 Nuke 打开速度变慢（或其他未知问题），经测试打开速度会变慢约 20 - 30 s。
 
 ## Appendix :books:
 
