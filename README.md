@@ -179,6 +179,8 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 ### PythonScripts :file_folder: 文件夹结构
 > 若不熟悉 Python 可略过。
 
+- 若在现有基础上添加 script
+
 打开下载的 :file_folder: 文件夹可以看到以下结构示例：
 
 | /nuLibrary    | /PythonScripts | /UI     | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
@@ -190,9 +192,9 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
 `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的目录（也就是会自动添加 PythonScripts 目录）。
 
-若想自定义方式添加路径可自行更改 init.py。
+- 若自定义方式添加路径可自行更改 init.py。
 
-> 请不要走捷径使用 os.walk() 遍历添加所有文件目录，只添加需求的目录即可。例如 W_hotbox 包含很多文件，若添加了所有目录，可能会导致 Nuke 打开速度变慢（或其他未知问题），经测试打开速度会变慢约 20 - 30 s。
+> 请不要走捷径使用 os.walk() 遍历添加所有文件目录，请利用适当的条件只添加需求的目录即可。例如 W_hotbox 包含很多文件，若添加了所有目录，可能会导致 Nuke 打开速度变慢（或其他未知问题），经测试打开速度会变慢约 20 - 30 s。
 
 ## Appendix :books:
 
