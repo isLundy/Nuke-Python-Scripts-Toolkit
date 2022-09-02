@@ -192,7 +192,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
   `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的目录（也就是会自动添加 PythonScripts 目录）。
   
-  `.nuke/nuLibrary/menu.py` 非自动向 Nuke 添加，需要手动编写，请悉知。
+  `.nuke/nuLibrary/PythonScripts/menu.py` 非自动向 Nuke 添加，需要手动编写，请悉知。
 
 - 若自定义方式添加
 
