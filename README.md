@@ -5,9 +5,14 @@
 
 <br />
 
+目录
+
+[前言](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/edit/main/README.md#%E5%89%8D%E8%A8%80-books)
+
 > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。
 
 > 文章或许有些长，可通过单击文件标头来访问目录。 每个标题都列在目录中，可单击标题导航到所选部分。
+
 
 <br />
 
@@ -61,7 +66,7 @@
 
 ## 介绍 :books:
 
-### PythonScripts 菜单 :scroll:
+### PythonScripts :scroll: 菜单
 
 完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` :scroll: 菜单。
 
@@ -170,7 +175,7 @@
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scroll: 菜单中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
-- > 有些弊大于利。有些作者的主要代码块内设置了布局，为方便以后的更新一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 Nuke 的 `Edit` 菜单最下面和 `Preferences` 面板中。对于 `animatedSnap3D`，使用方法中也有介绍到，它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。
+- > 有些弊大于利。有些作者的主要代码块内设置了布局，为方便以后的更新一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 Nuke 的 `Edit` 菜单最下面一项和 `Preferences` 面板最下面一项。对于 `animatedSnap3D`，使用方法中也有介绍到，它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。
 
 - > 有些没有必要显示。对于 `CreateOutDirs` 这类自动启动、自动运行、全程后台的 scripts。
 
