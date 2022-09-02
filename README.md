@@ -175,7 +175,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 <br />
 
 ### PythonScripts :file_folder: 文件夹结构
-> 若不熟悉编程可略过。
+> 若不熟悉 Python 可略过。
 
 打开下载的 :file_folder: 文件夹可以看到以下结构示例：
 
