@@ -180,11 +180,11 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜�
 打开下载的 :file_folder: 文件夹可以看到以下结构示例：
 
 | .nuke         | /nuLibrary    | /PythonScripts | /UI     | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
-| :---          | :---          | :---           | :---    | :---            | :---    |
-|               | 工具库名       | 工具包名        | 分类名   | script 文件夹名  | script  |
-|               |               | 一级目录        | 二级目录 | 三级目录         |         |
+| :---          | :---          | :---           | :---    | :---            | :---        |
+|               | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名   | script 文件夹名  | script 文件  |
+|               |               | 一级目录        | 二级目录 | 三级目录         |             |
 
-`.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的第三级目录， 因为 `PythonScripts` 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
+`.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`，所有的scripts都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
 
 `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的文件夹的目录（也是就会自动添加 PythonScripts 目录）。
 
