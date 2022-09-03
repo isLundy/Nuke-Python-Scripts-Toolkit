@@ -17,7 +17,7 @@
     + [问答 :question: :exclamation:](#问答-question-exclamation)
   * [PythonScripts :toolbox: 文件夹结构](#pythonscripts-toolbox-文件夹结构)
 - [附录 :books:](#附录-books)
-> 可单击标题直接导航到所选部分。
+> 可单击标题直接导航到该部分。
 
 <!-- > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。 -->
 
@@ -62,7 +62,7 @@
 
 <br />
 
-什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 即可~
+什么 :question: 你还想了解怎么 uninstall :question: 直接 delete 即可~
 - 只需删除 `.nuke` :file_folder: 文件夹下 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删也可不删~
 
   ```python
