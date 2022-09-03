@@ -101,7 +101,7 @@
   - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
 - `CreateOutDirs`
-  - > _来源：NUKE Python 开发者指南官方文档_
+  - > _来源：NUKE Python 开发者指南（官方文档）_
   - > _使用方法：无需操作，打开 Nuke 后自动启用。它会在 `Write` 节点开始渲染前的那一刻自动检测当前 `Write` 节点的文件目录是否存在，若为否，则自动先创建该目录然后再渲染。相当于勾选 :ballot_box_with_check: 了 `Write` 节点中的 `create directories` 选项。只不过它忽略 `create directories` 选项，无论是否勾选， `CreateOutDirs` 都会运行 :heavy_check_mark:。待发布_
 
 <br />
