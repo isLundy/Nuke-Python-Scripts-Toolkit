@@ -15,7 +15,7 @@
     + [NodeGraph :label:](#nodegraph-label)
     + [UI :label:](#ui-label)
     + [问答 :question: :exclamation:](#问答-question-exclamation)
-  * [PythonScripts :toolbox: 文件夹结构](#pythonscripts-toolbox-文件夹结构)
+  * [PythonScripts :toolbox: 目录结构](#pythonscripts-toolbox-目录结构)
 - [附录 :books:](#附录-books)
 > 可单击标题直接导航到该部分。
 
@@ -189,7 +189,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
 <br />
 
-### PythonScripts :toolbox: 文件夹结构
+### PythonScripts :toolbox: 目录结构
 > 若不熟悉 Python 可略过。
 
 - 在现有基础上添加脚本
