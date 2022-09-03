@@ -3,8 +3,6 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
-可以通过单击文件标头中的 &nbsp; <img src='/images/list-ul-solid.png'> &nbsp; 来访问该目录。 每个标题都列在目录中，您可以单击标题导航到所选部分。
-
 目录
 - [前言 :books:](#前言-books)
 - [下载 :books:](#下载-books)
@@ -19,7 +17,7 @@
     + [问答 :question: :exclamation:](#问答-question-exclamation)
   * [PythonScripts :toolbox: 文件夹结构](#pythonscripts-toolbox-文件夹结构)
 - [附录 :books:](#附录-books)
-> 文章或许有些长，每个标题都列在目录中，可单击标题直接导航到所选部分。
+> 可单击标题直接导航到所选部分。
 
 <!-- > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。 -->
 
@@ -31,7 +29,7 @@
 
 `nuLibrary` :house_with_garden: 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :toolbox:。 `Gizmos` :toolbox: 和 `Series` :toolbox: 主要针对于我个人使用习惯做了排版布局，与 `NukeSurvivalToolkit` 中的内容相似，其表面的最大区别就是在 Nuke 中的布局，所以暂不公开，无太多意义。
 
-在 `PythonScripts` :toolbox: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的脚本（或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
+在 `PythonScripts` :toolbox: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 scripts（脚本，或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
 
 <br />
 
@@ -51,7 +49,7 @@
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则新建一个 `init.txt` 文件，并将以下代码复制到文件中，最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
-     （ `右键用记事本方式打开文件` 或用 `你熟悉的一种方式打开`。若不会打开 :fearful:，请将电脑关 :chicken:，拔掉电源 :battery:，放入冰箱 :snowflake: :exclamation:）
+     （ `右键以记事本方式打开文件` 或用 `其他熟悉的一种方式打开`。若仍不会打开 :fearful:，请将电脑关 :chicken:，拔掉电源 :battery:，放入冰箱 :snowflake: :exclamation:）
       
      ```python
      import nuke
@@ -65,7 +63,7 @@
 <br />
 
 什么 :question: 你还想了解怎么 uninstall :question: 直接 delete :wastebasket: 即可~
-- 只需删除 `.nuke` :file_folder: 文件夹内 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删也可不删~
+- 只需删除 `.nuke` :file_folder: 文件夹下 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删也可不删~
 
   ```python
   nuke.pluginAddPath('./nuLibrary')
@@ -83,14 +81,15 @@
 
 <br />
 
-以下为 `PythonScripts` :toolbox: 中各种分类文件夹内 scripts 的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应脚本继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
+以下为 `PythonScripts` :toolbox: 中各种分类文件夹内脚本的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应脚本继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
 
-> 如若感兴趣建议尽可能地熟悉 `W_hotbox`（下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:，若同时了解Python更是 **`如虎添翼`** :eagle:。
+> 如若感兴趣建议尽可能地熟悉 `W_hotbox`（下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:，若同时了解 Python 更是 **`如虎添翼`** :eagle:。
 
 <br />
 
 #### 3D :label:
 - `animatedSnap3D`
+
   - > _作者：Ivan Busquets_
   - > _使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
