@@ -192,13 +192,13 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 ### PythonScripts :toolbox: 文件夹结构
 > 若不熟悉 Python 可略过。
 
-- 在现有基础上添加 script
+- 在现有基础上添加脚本
 
   安装到 .nuke :file_folder: 文件夹后可以看到以下结构示例：
 
   | .nuke | /nuLibrary | /PythonScripts | /UI  | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
   | :---  | :---       | :---           | :--- | :---            | :---        |
-  |       | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | script 文件夹名 :arrow_heading_up: | script 文件:arrow_heading_up: |
+  |       | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | 脚本文件夹名 :arrow_heading_up: | 脚本文件:arrow_heading_up: |
   |       |            | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
 
   `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的脚本都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请不要在二级目录下放置文件，务必建立 :file_folder: 文件夹。
@@ -207,11 +207,11 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
   
   `.nuke/nuLibrary/PythonScripts/menu.py` 非自动向 Nuke 添加，需要手动编写，请悉知。
 
-- 自定义方式添加 script
+- 自定义方式添加脚本
 
   请自行修改 `init.py` 和 `menu.py`。
 
-  > 使用 os.walk() 等类似代码请不要遍历添加 `所有` 目录路径，请利用适当的条件判断只添加需求的目录即可，否则可能会导致 Nuke 打开速度变慢或其他未知问题，原因是某些插件文件夹内含有很多的 .py 文件，但这些文件夹路径都不需要添加到 Nuke 的插件路径中（经测试打开速度会变慢约 20 - 30 s）。
+  > 使用代码时请勿遍历添加 `所有` 目录路径，请利用适当的条件判断只添加需求的目录即可，否则可能会导致 Nuke 打开速度变慢或其他未知问题，原因是某些插件文件夹内含有很多的 .py 文件，但这些文件夹路径都不需要添加到 Nuke 的插件路径中（经测试打开速度会变慢约 20 - 30 s）。
 
 <br />
 
