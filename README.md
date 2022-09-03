@@ -152,7 +152,7 @@
 
 <br />
 
- > _`AlignDots`、`AlignNodes`、`W_smartAlign` 现在三者的快捷键已关联到 `Alt + 0 2 4 5 6 8`，更改这三个脚本的快捷键的原因是为了相互配合适用，在使用数字键盘对齐节点时极为便利。_
+ > _`AlignDots`、`AlignNodes`、`W_smartAlign` 现在三者的快捷键已关联到 `Alt + 0 2 4 5 6 8`，更改这三个脚本快捷键是为了相互配合适用，在使用数字键盘对齐节点时极为便利。_
 
 <br />
 
@@ -183,9 +183,9 @@
 
 Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scroll: 菜单中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
-- > 有些弊大于利。有些作者的主要代码块内设置了布局，为方便以后的更新一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 Nuke 的 `Edit` 菜单最下面一项和 `Preferences` 面板最下面一项。对于 `animatedSnap3D`，使用方法中也有介绍到，它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。
+- > 布局方式不同。有些作者的主要代码块内设置了布局，为方便以后的更新一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 Nuke 的 `Edit` 菜单最下面一项和 `Preferences` 面板最下面一项。对于 `animatedSnap3D`，使用方法中也有介绍到，它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。
 
-- > 有些没有必要显示。像 `CreateOutDirs` 这类自动启动、自动运行、全程后台的脚本。
+- > 非必要显示。像 `CreateOutDirs` 这类自动启动、自动运行、全程后台的脚本。
 
 <br />
 
@@ -218,3 +218,5 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 ## 附录 :books:
 
 在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Josh Parks`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 以及 Nuke 社区的其他开发者、分享者。 :sparkling_heart:
+
+> 排名不分先后
