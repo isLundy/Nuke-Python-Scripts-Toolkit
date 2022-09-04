@@ -1,0 +1,25 @@
+#----------------------------------------------------------------------------------------------------------
+#
+# AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
+#
+# NAME: Size
+#
+#----------------------------------------------------------------------------------------------------------
+
+i = nuke.selectedNodes()
+bdwidth = int(i[0]['bdwidth'].getValue())
+bdheight = int(i[0]['bdheight'].getValue())
+
+bd = nuke.Panel("Size")
+bd.addBooleanCheckBox("<font color='orange'>Defalut to current size if only one node is selected", True)
+bd.addSingleLineInput('Width', bdwidth)
+bd.addSingleLineInput('Height', bdheight)
+bd.setWidth(420)
+bd.show()
+
+bdw = float(bd.value('Width'))
+bdh = float(bd.value('Height'))
+
+for node in i:
+    node['bdwidth'].setValue(bdw)
+    node['bdheight'].setValue(bdh)
