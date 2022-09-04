@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<defaults>
+  <default knob="label" node="ShuffleCopy">[value in] &gt; [value out2]\n[value in2] &gt; [value out]</default>
+  <default knob="label" node="Shuffle">[value in] &gt; [value out]</default>
+  <default knob="label" node="Blur">[value size]</default>
+  <default knob="size" node="Blur">3</default>
+  <default knob="label" node="Defocus">[value defocus]</default>
+  <default knob="label" node="Switch">[value which]</default>
+  <default knob="defocus" node="Defocus">3</default>
+  <default knob="label" node="FilterErode">[value size]</default>
+  <default knob="label" node="Dilate">[value size]</default>
+  <default knob="cliptype" node="Roto">no clip</default>
+  <default knob="cliptype" node="RotoPaint">no clip</default>
+  <default knob="create_directories" node="Write">true</default>
+  <default knob="input/frameend &quot;[value input.last]&quot;" node="ModifyMetaData" />
+  <default knob="label" node="Tracker">[value transform]  [value reference_frame]</default>
+  <default knob="label" node="Colorspace">[value colorspace_in] &gt; [value colorspace_out]</default>
+  <default knob="label" node="Read">[value origfirst] ~ [value origlast]</default>
+  <default knob="label" node="Retime">[value output.first] ~ [value output.last]</default>
+  <default knob="label" node="TimeClip">[value first] ~ [value last]</default>
+  <default knob="tile_color" node="Viewer">0x222222ff</default>
+  <default knob="label" node="Multiply">[value value]</default>
+  <default knob="label" node="FrameRange">[python {int(nuke.thisNode()['first_frame'].getValue())}] ~ [python {int(nuke.thisNode()['last_frame'].getValue())}]</default>
+  <default knob="showLayerNames" node="LayerContactSheet">True</default>
+  <default knob="label" node="Shuffle2">[value in1] &gt; [value out1]</default>
+  <default knob="label" node="ColorCorrect">[if {[value mix]&amp;lt;1} { value mix }]</default>
+  <default knob="label" node="OCIOColorSpace">[value in_colorspace] &amp;gt; [value out_colorspace]</default>
+  <default knob="label" node="AppendClip">[value firstFrame] ~ [value lastFrame]</default>
+  <default knob="operation" node="Remove">keep</default>
+  <default knob="channels" node="Remove">rgba</default>
+  <default knob="label" node="Remove">[value channels]</default>
+</defaults>

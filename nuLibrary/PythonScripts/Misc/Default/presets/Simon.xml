@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<defaults>
+  <default knob="fps" node="Root">25</default>
+  <default knob="chached" node="Read">1</default>
+  <default knob="cacheLocal" node="Read">always</default>
+  <default knob="rows" node="Card">0</default>
+  <default knob="columns" node="Card">0</default>
+  <default knob="rows" node="Card2">0</default>
+  <default knob="columns" node="Card2">0</default>
+  <default knob="label" node="ShuffleCopy">[value in] -&gt; [value out2]\n[value in2] -&gt; [value out]</default>
+  <default knob="label" node="Shuffle">[value in] -&gt; [value out]</default>
+  <default knob="label" node="Blur">[value size]</default>
+  <default knob="channels" node="Blur">alpha</default>
+  <default knob="screen_type" node="IBKColourV3">green</default>
+  <default knob="st" node="IBKGizmoV3">C-green</default>
+  <default knob="centerlinewidth" node="CheckerBoard">0</default>
+  <default knob="channels" node="FilterErode">alpha</default>
+  <default knob="bookmark" node="Write">True</default>
+  <default knob="label" node="Merge">[if {[value mix]&lt;1} { value mix }]</default>
+  <default knob="maskgrain" node="Grain2">False</default>
+  <default knob="tile_color" node="Viewer">842150655</default>
+  <default knob="tile_color" node="Dot">842150655</default>
+  <default knob="bookmark" node="BackdropNode">False</default>
+  <default knob="bbox" node="Merge2">B</default>
+  <default knob="size" node="Blur">7</default>
+  <default knob="label" node="Defocus">[value defocus]</default>
+  <default knob="shutteroffset" node="Transform">centred</default>
+  <default knob="label" node="Switch">[value which]</default>
+</defaults>
