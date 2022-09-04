@@ -143,7 +143,7 @@
 
 - `V_Tools`
   - > _作者： Victor Perez_
-  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个 scripts（另外一个由上面 readFromWrite 替代）。功能同字面意思，作用于已选定的节点。_
+  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个 scripts（共四个，另外一个由上面 readFromWrite 替代）。功能同字面意思，作用于已选定的节点。_
 
 - `W_scaleTree`
   - > _作者：Wouter Gilsing_
