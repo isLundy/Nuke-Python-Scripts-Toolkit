@@ -3,7 +3,7 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
-![](https://img.shields.io/badge/python-scripts-green)
+
 
 目录
 - [前言 :books:](#前言-books)
