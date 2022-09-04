@@ -19,6 +19,7 @@
     + [问答 :question: :exclamation:](#问答-question-exclamation)
   * [PythonScripts :toolbox: 目录结构](#pythonscripts-toolbox-目录结构)
 - [附录 :books:](#附录-books)
+- [证书 :books:](#证书-books)
 > 可单击标题直接导航到该部分。
 
 <!-- > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。 -->
