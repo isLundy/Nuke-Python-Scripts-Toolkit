@@ -1,0 +1,18 @@
+#----------------------------------------------------------------------------------------------------------
+#
+# AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
+#
+# NAME: PasteTest
+#
+#----------------------------------------------------------------------------------------------------------
+
+selections = nuke.selectedNodes()
+newPastedNodes = []
+
+for selection in selections:
+    selection['selected'].setValue(True)
+    nuke.nodePaste('%sclipboard%')
+    newPastedNodes.append(nuke.selectedNode())
+    
+for newPastedNode in newPastedNodes:
+    newPastedNode['selected'].setValue(True)

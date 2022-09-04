@@ -1,0 +1,15 @@
+#----------------------------------------------------------------------------------------------------------
+#
+# AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
+#
+# NAME: PFM_Timers On/Off
+#
+#----------------------------------------------------------------------------------------------------------
+
+if nuke.usingPerformanceTimers() == True:
+    nuke.stopPerformanceTimers()
+else:
+    nuke.startPerformanceTimers()
+    
+    #nuke.resetPerformanceTimers()
+    

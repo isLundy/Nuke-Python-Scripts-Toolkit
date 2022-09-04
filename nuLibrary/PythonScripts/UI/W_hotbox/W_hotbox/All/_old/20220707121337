@@ -1,0 +1,76 @@
+#----------------------------------------------------------------------------------------------------------
+#
+# AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
+#
+# NAME: test
+#
+#----------------------------------------------------------------------------------------------------------
+
+import nuke
+import nukescripts
+import subprocess
+import os
+import sys
+import platform
+
+class PluginsPath(nukescripts.PythonPanel):
+    def __init__(self):
+        nukescripts.PythonPanel.__init__(self, 'Path of the Plugin')
+        self.operatingSystem = platform.system()
+        self.plugin_path = nuke.String_Knob('plugin_Path', 'path')
+        self.plugin_path.setFlag(0x0000000010000000)
+        self.open = nuke.PyScript_Knob("openFolder", "Open the Folder")
+
+        for k in (self.plugin_path, self.open):
+            self.addKnob(k)
+    
+    def getCN(self, key):
+        node = nuke.selectedNode()
+        
+        if key == "Class":
+            return node.Class()
+        if key == "Name":
+            name = node.name()
+            
+            for num in range(1, len(name)):
+                if name[-num].isalpha():
+                    if num == 1:
+                        return name
+                    else:
+                        return name[:-(num-1)]
+
+    def pluginPath(self):
+        for fullpath in nuke.plugins():
+            fullname = os.path.basename(fullpath)
+            
+            if self.getCN("Class") in fullname or self.getCN("Name") in fullname:
+                if fullname.split('.')[-1] not in ['svg', 'png', 'py']:
+                    return fullpath
+
+    def setProps(self):
+        if self.pluginPath():
+            self.plugin_path.setValue(self.pluginPath())
+        else:
+            self.plugin_path.setValue("None!")
+            self.plugin_path.setEnabled(False)
+            self.open.setEnabled(False)
+                    
+    def knobChanged(self, knob):
+        if knob == self.open:
+            path = os.path.dirname(self.pluginPath())
+
+            if self.operatingSystem == "Windows":
+                subprocess.Popen("explorer {}".format(path.replace('/', '\\')))
+
+            elif self.operatingSystem == "Darwin":
+                subprocess.Popen(["open", path])
+
+            else:
+                subprocess.Popen(["xdg-open", path])
+
+            self.finishModalDialog(True)
+            
+i = PluginsPath()
+i.setProps()
+i.setMinimumSize(800, 0)
+i.showModalDialog()

@@ -1,0 +1,111 @@
+#----------------------------------------------------------------------------------------------------------
+#
+# AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
+#
+# NAME: Gizmos Path
+#
+#----------------------------------------------------------------------------------------------------------
+
+import nuke
+import nukescripts
+import os
+import platform
+import subprocess
+
+class GizmosPath(nukescripts.PythonPanel):
+    def __init__(self):
+        nukescripts.PythonPanel.__init__(self, 'Paths of Gizmos')
+        self.setMinimumSize(1000, 0)
+
+    def getCN(self):
+        node = nuke.selectedNode()
+        node_class = node.Class()
+        node_name = node.name()
+
+        while node_name[-1].isalpha() == False:
+            node_name = node_name[:-1]
+
+        if len(node_class) >= 3 and len(node_name) >= 3:
+            return node_class.lower(), node_name.lower()
+
+    def add_knob(self, n, fullpath, basename):
+        self.gizmos_path = nuke.String_Knob("gizmos_path_{}".format(n), "{} Path".format(n))
+        self.gizmos_path.setValue(os.path.dirname(fullpath) + "/")
+        self.gizmos_path.setFlag(0x0000000010000000)
+
+        self.gizmos_name = nuke.String_Knob("gizmos_name_{}".format(n), "")
+        self.gizmos_name.setValue(basename)
+        self.gizmos_name.clearFlag(nuke.STARTLINE)
+        self.gizmos_name.setFlag(0x0000000010000000)
+
+        self.openFolder = nuke.PyScript_Knob("openFloder_{}".format(n), "Open the Folder")
+        self.openCmd = '''
+import os
+import platform
+import subprocess
+
+operatingSystem = platform.system()
+path = '{}'
+
+if operatingSystem == "Windows":
+    subprocess.Popen("explorer " + path.replace('/', '\\\\'))
+
+elif operatingSystem == "Darwin":
+    subprocess.Popen(["open", path])
+
+else:
+    subprocess.Popen(["xdg-open", path])
+'''.format(os.path.dirname(fullpath))
+        self.openFolder.setValue(self.openCmd)
+
+        for k in (self.gizmos_path, self.gizmos_name, self.openFolder):
+            self.addKnob(k)
+
+    def tipsInfo(self):
+        self.tips_1 = nuke.Text_Knob("tips_1", " ")
+        self.tips_1.setValue("<span style='font-size:18px'>Maybe you can recreate this node and try again.</span><p></p>")
+
+        self.tips_2 = nuke.Text_Knob("tips_2", " ")
+        self.tips_2.setValue("Tip: Search only from personal custom added gizmos.\n")
+
+        for k in (self.tips_1, self.tips_2):
+            self.addKnob(k)
+
+    def gizmosPath(self):
+        node_class, node_name = self.getCN()
+
+        node_filter = ['gizmo', 'nk']
+        n = 0
+        internal = os.path.dirname(nuke.EXE_PATH)
+        allpath = []
+        
+        for nukepath in list(set(nuke.plugins() + nuke.plugins(nuke.ALL))):
+            if os.path.isfile(nukepath) and internal not in nukepath:
+                allpath.append(nukepath)
+
+        for fullpath in sorted(allpath):
+            basename = os.path.basename(fullpath)
+            ext = basename.split('.')[-1]
+
+            if node_class != "group":
+                if (node_class in basename.lower() or node_name in basename.lower()) and ext in node_filter:
+                    n += 1
+                    self.add_knob(n, fullpath, basename)
+
+            elif node_name in basename.lower():
+                if ext in node_filter:
+                    n += 1
+                    self.add_knob(n, fullpath, basename)
+   
+    def knobChanged(self, knob):
+        if "openFloder" in knob.name() and self.gizmos_path.name().split('_')[-1] == "1":
+            self.finishModalDialog(True)
+            
+    def showPanel(self):
+        self.gizmosPath()
+        if len(self.knobs()) < 3:
+            self.tipsInfo()
+        self.showModalDialog()
+
+gpPanel = GizmosPath()
+gpPanel.showPanel()
