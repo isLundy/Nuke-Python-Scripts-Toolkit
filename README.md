@@ -8,7 +8,7 @@
 <p align="center">
     <a href="LICENSE">
         <img src="https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
-    <a href="LICENSE">
+    <a href="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest">
         <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
 </p>
 
