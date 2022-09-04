@@ -6,6 +6,8 @@
 <br />
 
 <p align="center">
+    <a href="https://img.shields.io/github/commit-activity/m/isLundy/Nuke-PythonScripts-Toolkit?style=plastic">
+        <img src="https://img.shields.io/github/commit-activity/m/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
     <a href="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?style=plastic">
         <img src="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
     <a href="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?style=plastic">
