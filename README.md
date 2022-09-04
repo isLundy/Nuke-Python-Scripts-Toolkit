@@ -3,7 +3,7 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
-
+[![](https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic)](LICENSE)
 
 目录
 - [前言 :books:](#前言-books)
