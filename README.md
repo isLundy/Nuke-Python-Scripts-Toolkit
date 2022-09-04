@@ -3,7 +3,7 @@
       <br> PythonScripts Toolkit for Nuke
 </h1>
 
-[![test](https://img.shields.io/badge/python-scripts-green)]
+![](https://img.shields.io/badge/python-scripts-green)
 
 目录
 - [前言 :books:](#前言-books)
@@ -222,3 +222,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Josh Parks`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 以及 Nuke 社区的其他开发者、分享者。 :sparkling_heart:
 
 > 排名不分先后
+
+<br />
+
+## 证书 :books:
