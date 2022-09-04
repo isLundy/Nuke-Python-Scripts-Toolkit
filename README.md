@@ -112,7 +112,7 @@
 #### Misc :label:
 - `Auto open .nk as NukeX`
   - > _作者：Max van Leeuwen_
-  - > _使用方法：仅针对于 Windows 系统。自动将 .nk 文件与 Windows 注册表中的 NukeX 关联，因此双击 Nuke 工程会将它们作为 NukeX 打开，需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下将 .reg 文件右键以记事本方式打开，更改路径中的 **`版本号`**，保存后，双击运行。_
+  - > _使用方法：仅针对于 Windows 系统。自动将 .nk 文件与 NukeX 关联，双击 Nuke 工程将自动以 NukeX 打开。需要到文件路径 .nuke/nuLibrary/PythonScripts/Misc/Auto_open_nk_as_NukeX 下将 `NukeXByDefault.reg` 文件右键以记事本方式打开，更改路径中的 **`版本号`**，保存后，双击运行，一劳永逸。_
 
 - `Default`
   - > _作者：Simon Jokuschies_
