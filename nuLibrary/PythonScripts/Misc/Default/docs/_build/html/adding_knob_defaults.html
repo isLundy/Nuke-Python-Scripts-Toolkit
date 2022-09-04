@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Adding a new knob default &mdash; default 4.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="default 4.0 documentation" href="index.html"/>
+        <link rel="next" title="Removing a knob default" href="removing_knob_defaults.html"/>
+        <link rel="prev" title="Main Window" href="main_window.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> default
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                4.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="download_installation.html">Download and installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main_window.html">Main Window</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Adding a new knob default</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-add-knobdefault-window">1) Using the Add knobDefault window</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-i-know-the-exact-node-and-knob-name">How do I know the exact node- and knob name?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-context-menu">2) Using the context menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-list-menu">3) Using the list menu</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="removing_knob_defaults.html">Removing a knob default</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feedback.html">Feedback</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">default</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Adding a new knob default</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/adding_knob_defaults.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="adding-a-new-knob-default">
+<span id="adding-knob-defaults"></span><h1>Adding a new knob default<a class="headerlink" href="#adding-a-new-knob-default" title="Permalink to this headline">¶</a></h1>
+<p>There are three ways to create new knob defaults.</p>
+<div class="section" id="using-the-add-knobdefault-window">
+<h2>1) Using the Add knobDefault window<a class="headerlink" href="#using-the-add-knobdefault-window" title="Permalink to this headline">¶</a></h2>
+<p>When clicking the blue <strong>add new knobDefault</strong> button at the bottom left of the <a class="reference external" href="main_window.html">default main window</a> the “Add knobDefault” window appears.
+This window lets you create new knobDefaults.</p>
+<img alt="_images/add_knob_default_start.png" src="_images/add_knob_default_start.png" />
+<p>Simply type in the node class, the knob name and the default value that you would like to set.
+Before adding the knob default make sure to click the <strong>check validity</strong> button.
+This will check if the node name and the knob name are correct and prevents you from creating knob defaults that are invalid:</p>
+<img alt="_images/add_knob_default_invalid.png" src="_images/add_knob_default_invalid.png" />
+<p>In this example the knob name is invalid. The knob name should be lowercase, so ‘size’.</p>
+<img alt="_images/add_knob_default_valid.png" src="_images/add_knob_default_valid.png" />
+<p>When everything is correct click the <strong>register knobDefault</strong> button.
+The knob default will be added to the list. You don’t need to restart Nuke, the knob default is immediately set.
+You can always edit or delete any knob default from the list.</p>
+<div class="section" id="how-do-i-know-the-exact-node-and-knob-name">
+<h3>How do I know the exact node- and knob name?<a class="headerlink" href="#how-do-i-know-the-exact-node-and-knob-name" title="Permalink to this headline">¶</a></h3>
+<p>To find out the node name create the node, select it and press <strong>I</strong>.
+In the upcoming window you will see the node class.</p>
+<img alt="_images/hint_node_name.png" src="_images/hint_node_name.png" />
+<p>To find out the knob name open the node in the properties bin and hover over the knob to change.
+The name in bold is the internal knob name.</p>
+<img alt="_images/hint_knob_name.png" src="_images/hint_knob_name.png" />
+</div>
+</div>
+<div class="section" id="using-the-context-menu">
+<span id="context-menu"></span><h2>2) Using the context menu<a class="headerlink" href="#using-the-context-menu" title="Permalink to this headline">¶</a></h2>
+<p>You can also set knob defaults interactively and on the fly.
+Set up the knob of your choice to the value that you would like to have as a knob default.
+Then simply right click the knob and choose from the context menu: <strong>default -&gt; set as new knobDefault</strong>.</p>
+<img alt="_images/context_menu_set.png" src="_images/context_menu_set.png" />
+<p>If you don’t see the ‘default’ context menu follow the steps in 3).</p>
+</div>
+<div class="section" id="using-the-list-menu">
+<h2>3) Using the list menu<a class="headerlink" href="#using-the-list-menu" title="Permalink to this headline">¶</a></h2>
+<p>The default context menu does not work with drop down menus, unfortunately.
+If you right click a knob and don’t see the ‘default’ menu in the context menu then do the following steps.</p>
+<p>Right click any other knob that does actually show the ‘default’ context menu. From the menu choose <strong>show knob list</strong>.</p>
+<img alt="_images/context_menu_list.png" src="_images/context_menu_list.png" />
+<p>The upcoming window contains a drop down menu ‘knob’ that contains all knobs of the selected node - also knobs that weren’t accessible through the ‘default’ context menu.
+Select the desired knob from the drop down list and set the desired value.</p>
+<img alt="_images/all_knobs_list.png" src="_images/all_knobs_list.png" />
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="removing_knob_defaults.html" class="btn btn-neutral float-right" title="Removing a knob default" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="main_window.html" class="btn btn-neutral" title="Main Window" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Simon Jokuschies.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'4.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
