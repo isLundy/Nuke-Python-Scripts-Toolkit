@@ -94,18 +94,18 @@
 - `animatedSnap3D`
 
   - > _作者：Ivan Busquets_
-  - > _详情：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
+  - > _使用方法：[https://www.nukepedia.com/python/3d/animatedsnap3d](https://www.nukepedia.com/python/3d/animatedsnap3d)_
 
 <br />
 
 #### Import_Export :label:
 - `CollectFiles`
   - > _作者：Mariano Antico_
-  - > _详情：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
+  - > _使用方法：[https://www.nukepedia.com/python/import/export/collectfiles](https://www.nukepedia.com/python/import/export/collectfiles)_
 
 - `CreateOutDirs`
   - > _来源：NUKE Python Developer’s Guide（官方文档）_
-  - > _详情：无需操作，打开 Nuke 后自动启用。它会在 `Write` 节点开始渲染前的那一刻自动检测当前 `Write` 节点的文件目录是否存在，若为否，则自动先创建该目录然后再渲染。相当于勾选 :ballot_box_with_check: 了 `Write` 节点中的 `create directories` 选项。只不过它忽略 `create directories` 选项，无论是否勾选， `CreateOutDirs` 都会运行 :heavy_check_mark:。待发布_
+  - > _使用方法：无需操作，打开 Nuke 后自动启用。它会在 `Write` 节点开始渲染前的那一刻自动检测当前 `Write` 节点的文件目录是否存在，若为否，则自动先创建该目录然后再渲染。相当于勾选 :ballot_box_with_check: 了 `Write` 节点中的 `create directories` 选项。只不过它忽略 `create directories` 选项，无论是否勾选， `CreateOutDirs` 都会运行 :heavy_check_mark:。待发布_
 
 <br />
 
@@ -131,11 +131,11 @@
 #### NodeGraph :label:
 - `AlignDots`
   - > _作者：Max van Leeuwen_
-  - > _使用方法：快捷键已被我更改。[https://www.nukepedia.com/python/nodegraph/aligndots](https://www.nukepedia.com/python/nodegraph/aligndots)_
+  - > _使用方法：[https://www.nukepedia.com/python/nodegraph/aligndots](https://www.nukepedia.com/python/nodegraph/aligndots)（快捷键已被我更改）_
 
 - `AlignNodes`
   - > _作者：Frank Rueter_
-  - > _使用方法：快捷键已被我更改。[https://www.nukepedia.com/python/nodegraph/alignnodes](https://www.nukepedia.com/python/nodegraph/alignnodes)_
+  - > _使用方法：[https://www.nukepedia.com/python/nodegraph/alignnodes](https://www.nukepedia.com/python/nodegraph/alignnodes)（快捷键已被我更改）_
 
 - `MultiChannelSplit`
   - > _作者：Simon Jokuschies_
@@ -151,7 +151,7 @@
 
 - `W_smartAlign`
   - > _作者：Wouter Gilsing_
-  - > _使用方法：快捷键已被我更改。[https://www.nukepedia.com/python/nodegraph/w_smartalign](https://www.nukepedia.com/python/nodegraph/w_smartalign)_
+  - > _使用方法：[https://www.nukepedia.com/python/nodegraph/w_smartalign](https://www.nukepedia.com/python/nodegraph/w_smartalign)（快捷键已被我更改）_
 
 <br />
 
