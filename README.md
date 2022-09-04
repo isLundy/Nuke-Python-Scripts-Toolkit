@@ -7,6 +7,8 @@
 
 <p align="center">
     <a href="">
+        <img src="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
+    <a href="">
         <img src="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
     <a href="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest">
         <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
