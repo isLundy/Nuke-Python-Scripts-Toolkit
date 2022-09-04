@@ -1,9 +1,11 @@
 <h1 align="center"> 
       <img src="/images/python-logo-only.png">
-      <br> PythonScripts Toolkit for Nuke
+      <br /> PythonScripts Toolkit for Nuke
 </h1>
 
-[![](https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic)](LICENSE)
+<p align="center">
+      <a href="(LICENSE)"><img src="https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
+</p>
 
 目录
 - [前言 :books:](#前言-books)
