@@ -14,8 +14,6 @@
         <img src="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
     <a href="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest">
         <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
-    <a href="LICENSE">
-        <img src="https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
 </p>
 
 目录
@@ -32,6 +30,7 @@
     + [问答 :question: :exclamation:](#问答-question-exclamation)
   * [PythonScripts :toolbox: 目录结构](#pythonscripts-toolbox-目录结构)
 - [附录 :books:](#附录-books)
+- [证书 :books:](#证书-books)
 > 可单击标题直接导航到该部分。
 
 <!-- > 当你看到这个页面时说明你可以访问 GitHub（很显然你看到了一句废话）。 若熟悉科学上网 :spider_web: 建议使用代理访问 :rocket:（无需多言），若不熟悉可略过。 -->
@@ -235,3 +234,7 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 在此非常感谢 `Wouter Gilsing`、`Frank Rueter`、`Max van Leeuwen`、`Josh Parks`、`Falk Hofmann`、`David Emeny`、`Victor Perez`、`Simon Jokuschies`、`Mariano Antico`、`Ivan Busquets`、`Thorsten`、`Varun Hadkar` 以及 Nuke 社区的其他开发者、分享者。 :sparkling_heart:
 
 > 排名不分先后
+
+## 证书 :books:
+
+[![](https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic)](LICENSE)
