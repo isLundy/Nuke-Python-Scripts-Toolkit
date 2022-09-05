@@ -12,7 +12,7 @@
         <img src="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?color=%2300BFFF&style=plastic"></a>
     <a href="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic">
         <img src="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic"></a>
-    <a href="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic">
+    <a href="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest">
         <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
 </p>
 
@@ -154,7 +154,7 @@
 
 - `V_Tools`
   - > _作者： Victor Perez_
-  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个 scripts（共四个，另外一个由上面 readFromWrite 替代）。功能同字面意思，作用于已选定的节点。_
+  - > _使用方法：只保留了 V_ConvertGizmosToGroups，V_PostageStampGenerator，V_PresetBackdrop 这三个 scripts（共四个，另外一个由 readFromWrite 替代）。功能同字面意思，作用于已选定的节点。_
 
 - `W_scaleTree`
   - > _作者：Wouter Gilsing_
