@@ -60,7 +60,7 @@
 
 > 若熟悉 GitHub 可略过
 
-点击右侧的 `Releases` - `latest`， 进入页面后点击 `Assets` 下的第一个 `.zip` 链接 :link: 即可。
+点击右侧的 `Releases` - `latest`， 进入页面后点击 `Assets` 下的第一个 `nuLibrary_vX.X.X.zip` 链接 :link: 即可。
 
 > 没找到 ？ 那就点击 [此处](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest) 吧 ！
 
@@ -256,5 +256,4 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
     <a href="LICENSE">
         <img src="https://img.shields.io/github/license/islundy/Nuke-PythonScripts-Toolkit?color=%23FF0000&style=plastic"></a>
 </p>
-
 <br />
