@@ -6,7 +6,7 @@
 <br />
 
 <p align="center">
-    <a href="/images/it_is_me.svg">
+    <a href="https://img.shields.io/badge/Lundy-Hu-gray">
         <img src="https://img.shields.io/badge/Lundy-Hu-gray"></a>
 </p>
 
