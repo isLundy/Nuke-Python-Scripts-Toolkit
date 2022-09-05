@@ -12,6 +12,8 @@
         <img src="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?color=%2300BFFF&style=plastic"></a>
     <a href="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic">
         <img src="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic"></a>
+    <a href="https://img.shields.io/github/release-date/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CED1&style=plastic">
+        <img src="https://img.shields.io/github/release-date/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CED1&style=plastic"></a>
     <a href="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic">
         <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
 </p>
