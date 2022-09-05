@@ -2,36 +2,42 @@
 #
 # AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
 #
-# NAME: Custom Size 2
+# NAME: Custom Size
 #
 #----------------------------------------------------------------------------------------------------------
 
-import nuke
-import nukescripts
+i = nuke.selectedNodes()
 
-class BackdropCustomSize(nukescripts.PythonPanel):
-    def __init__(self):
-        nukescripts.PythonPanel.__init__(self, 'Custom Size')
-        self.bd = nuke.selectedNode()
-        self.bdw = int(self.bd['bdwidth'].getValue())
-        self.bdh = int(self.bd['bdheight'].getValue())
+bdlist = []
+otherlist = []
 
-        self.width = nuke.Int_Knob('width', '<b>Width')
-        self.width.setValue(self.bdw)
-        self.spacer1 = nuke.Text_Knob('spacer1', '', ' ')
-        self.height = nuke.Int_Knob('height', ' <b>Height')
-        self.height.setValue(self.bdh)
-        self.spacer2 = nuke.Text_Knob('spacer2', '', ' ')
-        self.tooltip = nuke.Text_Knob('tooltip', '<b>Tip:', "<font color='#FCB434'>Defaults to current size.<font>")
-        self.spacer3 = nuke.Text_Knob('spacer1', '', ' ')
+for node in i:
+    if node.Class() == 'BackdropNode':
+        bdlist.append(node)
+    else:
+        otherlist.append(node)
 
-        for k in (self.width, self.spacer1, self.height, self.spacer2, self.tooltip, self.spacer3):
-            self.addKnob(k)
+for node in otherlist:
+    node['selected'].setValue(False)
 
-    def excute(self):
-        self.bd['bdwidth'].setValue(float(self.width.value()))
-        self.bd['bdheight'].setValue(float(self.height.value()))
+try:
+    bdwidth = int(bdlist[0]['bdwidth'].getValue())
+    bdheight = int(bdlist[0]['bdheight'].getValue())
+except:
+    pass
+else:
+    bd = nuke.Panel("Backdrop Size")
+    bd.addBooleanCheckBox("<p><font color='#FCB434'>Defalut to current size if only one node is selected,<br><br>otherwise the last selected one.</font></p>", True)
+    bd.addSingleLineInput('Width', bdwidth)
+    bd.addSingleLineInput('Height', bdheight)
+    bd.setWidth(420)
+    result = bd.show()
 
-bd = BackdropCustomSize()
-bd.showModalDialog()
-bd.excute()
+    if result == True:
+        bdw = float(bd.value('Width'))
+        bdh = float(bd.value('Height'))
+
+        if int(bdw) >= 40 and int(bdh) >= 20:
+            for node in bdlist:
+                node['bdwidth'].setValue(bdw)
+                node['bdheight'].setValue(bdh)
