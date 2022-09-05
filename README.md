@@ -6,14 +6,14 @@
 <br />
 
 <p align="center">
-    <a href="https://img.shields.io/github/commit-activity/m/isLundy/Nuke-PythonScripts-Toolkit?style=plastic">
-        <img src="https://img.shields.io/github/commit-activity/m/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
-    <a href="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?style=plastic">
-        <img src="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
+    <a href="https://img.shields.io/github/commit-activity/m/isLundy/Nuke-PythonScripts-Toolkit?color=%23FF4C4C&style=plastic">
+        <img src="https://img.shields.io/github/commit-activity/m/isLundy/Nuke-PythonScripts-Toolkit?color=%23FF4C4C&style=plastic"></a>
+    <a href="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?color=important&style=plastic">
+        <img src="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?color=important&style=plastic"></a>
     <a href="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?style=plastic">
         <img src="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
-    <a href="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest">
-        <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?style=plastic"></a>
+    <a href="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic">
+        <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
 </p>
 
 目录
