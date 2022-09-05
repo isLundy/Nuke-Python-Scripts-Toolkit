@@ -239,8 +239,6 @@ Q1. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scro
 
 ## 证书 :books:
 
-[![](https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic)](LICENSE)
-
 <p align="center">
     <a href="LICENSE">
         <img src="https://img.shields.io/github/license/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
