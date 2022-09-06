@@ -1,5 +1,5 @@
 <h1 align="center"> 
-      <img src="/images/python-logo-only.png">
+      <img src="/images/PythonScripts_show.png">
       <br /> PythonScripts Toolkit for Nuke
 </h1>
 
@@ -102,7 +102,7 @@
 
 完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` :scroll: 菜单。
 
-<p align="center"><img src="./images/PythonScript_layout.png"></p>  
+<p align="center"><img src="./images/PythonScripts_layout.png"></p>  
 
 <br />
 
