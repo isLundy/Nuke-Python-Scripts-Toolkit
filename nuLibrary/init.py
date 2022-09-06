@@ -1,3 +1,15 @@
+#"""
+# ==============================================================================
+# nuLibrary v9.6.2, built September 6 2022.
+
+# Author: Lundy Hu
+
+# Email: lundyhu@outlook.com
+
+# See the https://github.com/isLundy/Nuke-PythonScripts-Toolkit for details.
+# ==============================================================================
+#"""
+
 import nuke
 import os
 

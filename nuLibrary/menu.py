@@ -1,6 +1,18 @@
+#"""
+# ==============================================================================
+# nuLibrary v9.6.2, built September 6 2022.
+
+# Author: Lundy Hu
+
+# Email: lundyhu@outlook.com
+
+# See the https://github.com/isLundy/Nuke-PythonScripts-Toolkit for details.
+# ==============================================================================
+#"""
+
 import os
 
-version = '9.6.0'
+version = '9.6.2'
 year = '2022'
-releaseDate = 'September 6 ' + year
-print('nuLibrary v%s, built %s.\nCopyright (c) 2018-%s Lundy Hu.  All Rights Reserved.'%(version, releaseDate, year))
+releaseDate = 'September 6 {}'.format(year)
+print('nuLibrary v{}, built {}.\nCopyright (c) 2018-{} Lundy Hu.  All Rights Reserved.'.format(version, releaseDate, year))
