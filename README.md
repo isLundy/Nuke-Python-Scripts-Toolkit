@@ -48,7 +48,7 @@
 
 我个人平时整合并制作了一个名为 `nuLibrary` :house_with_garden: 的工具库（大约是在2018年12月，后续一直慢慢地不断优化），`nuLibrary` :house_with_garden: 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，少部分为自己编写。
 
-`nuLibrary` :house_with_garden: 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :toolbox:。 `Gizmos` :toolbox: 和 `Series` :toolbox: 主要针对于我个人使用习惯做了排版布局，与 `NukeSurvivalToolkit` 中的内容相似，其表面的最大区别就是在 Nuke 中的布局，所以暂不公开，无太多意义。
+`nuLibrary` :house_with_garden: 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :toolbox:。 `Gizmos` :toolbox: 和 `Series` :toolbox: 主要针对于我个人使用习惯做了排版布局，与 [`NukeSurvivalToolkit`](https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease) 中的内容相似，其表面的最大区别就是在 Nuke 中的布局，所以暂不公开，无太多意义。
 
 在 `PythonScripts` :toolbox: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 scripts（脚本，或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
 
@@ -106,7 +106,7 @@
 
 <br />
 
-以下为 `PythonScripts` :toolbox: 中各种分类文件夹内脚本的介绍，分类方式遵循 `NukePedia`。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应脚本继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
+`PythonScripts` :toolbox: 遵循 [`NukePedia`](https://www.nukepedia.com/python-downloads) 的分类方式，以下为各种分类文件夹内脚本的介绍。目前存在 `3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应脚本继续添加分类）。有关快捷键，请在 `PythonScripts` :scroll: 菜单内查看。
 
 > 如若感兴趣建议尽可能地熟悉 `W_hotbox`（下面有介绍），**`快速高效`**、**`高度自定义化`**、**`大幅减少了对快捷键的占用`**。完全熟悉后，会使你 **`锦上添花`** :sunflower:，若同时了解 Python 更是 **`如虎添翼`** :eagle:。
 
