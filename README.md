@@ -184,7 +184,7 @@
 #### UI :label:
 - `AnimationMaker`
   - > _作者：David Emeny_
-  - > _使用方法：[https://www.nukepedia.com/python/ui/animation-maker](https://www.nukepedia.com/python/ui/animation-maker)_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/animation-maker](https://www.nukepedia.com/python/ui/animation-maker)，与 [ExpressionWaveGenerator](https://www.nukepedia.com/gizmos/other/expressionwavegenerator) 相似，都能达到同样的动画效果。_
 
 - `Channel_Hotbox`
   - > _作者：Falk Hofmann_
