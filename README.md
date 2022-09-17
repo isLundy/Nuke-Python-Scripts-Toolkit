@@ -141,7 +141,7 @@
   - > _使用方法：[https://www.nukepedia.com/python/misc/default-automatic-knobdefaults](https://www.nukepedia.com/python/misc/default-automatic-knobdefaults)_
 
 - `openExploreDir`
-  - > _（原名：winExploreDir，原作者：Thorsten 编写，Varun Hadkar 发布。思路来源于 Thorsten，名称和代码现已全部被我更改并重新发布于 NukePedia，已适用于 Windows、Linux、Mac，并添加了新功能）_
+  - > _（原名：winExploreDir，原作者：Thorsten 编写，Varun Hadkar 发布。思路来源于 Thorsten，代码和名字现已全部被我更改，已适用于 Windows、Linux、Mac，并添加了新功能）_
   - > _使用方法：[https://github.com/isLundy/openExploreDir#feature](https://github.com/isLundy/openExploreDir#feature)_
 
 - `readFromWrite`
