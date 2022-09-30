@@ -67,7 +67,7 @@
 <br />
 
 ## 安装 :books:
-> 已测试 Windows 10，Linux CentOS 7, Mac 尚未测试！
+> 已测试 Windows 10，Linux CentOS 7，Mac 尚未测试！
 
 > 若熟悉安装可略过
 
