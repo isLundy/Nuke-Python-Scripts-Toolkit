@@ -6,7 +6,7 @@
 #
 #----------------------------------------------------------------------------------------------------------
 
-for i in nuke.selectedNodes():
-	curValue = i.knob('value').value()
-	i.knob('value').setAnimated()
-	curValue = i.knob('value').setValue(curValue)
+for node in nuke.selectedNodes():
+    curValue = node['value'].getValue()
+    node['value'].setAnimated()
+    node['value'].setValue(curValue)

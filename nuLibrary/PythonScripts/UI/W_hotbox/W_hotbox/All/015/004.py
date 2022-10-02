@@ -2,9 +2,11 @@
 #
 # AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
 #
-# NAME: Set to frame
+# NAME: Offset to Down
 #
 #----------------------------------------------------------------------------------------------------------
 
-for i in nuke.selectedNodes():
-    i.knob('first_frame').setValue(nuke.frame())
+inc = 100
+
+for node in nuke.selectedNodes():
+    node.setXYpos(node.xpos(), node.ypos()+inc)

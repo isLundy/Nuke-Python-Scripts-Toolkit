@@ -6,5 +6,6 @@
 #
 #----------------------------------------------------------------------------------------------------------
 
-for i in nuke.selectedNodes():
-    i.knob('first_frame').setValue(nuke.frame())
+for node in nuke.selectedNodes():
+    node['output.first_lock'].setValue(True)
+    node['output.first'].setValue(nuke.frame())

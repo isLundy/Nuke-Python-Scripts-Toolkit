@@ -2,9 +2,15 @@
 #
 # AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
 #
-# NAME: Set to frame
+# NAME: Remove Key
+# COLOR: #7f0000
+# TEXTCOLOR: #ffffff
 #
 #----------------------------------------------------------------------------------------------------------
 
-for i in nuke.selectedNodes():
-    i.knob('first_frame').setValue(nuke.frame())
+nodes = nuke.selectedNodes()
+
+for node in nodes:
+    for k,v in node.knobs().items():
+        if v.isKey():
+            v.removeKey()
