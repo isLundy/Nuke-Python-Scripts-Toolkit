@@ -19,5 +19,5 @@ From the current directory to the third-level directory, only add the third-leve
 '''
 top = os.path.dirname(os.path.abspath(__file__))
 for root, dirs, files in os.walk(top):
-    if os.path.basename(top) == re.split(r'[\\/]', root)[-3]:
+    if re.split(r'[\\/]', root)[-3] == os.path.basename(top):
         nuke.pluginAddPath(root.replace('\\', '/'))
