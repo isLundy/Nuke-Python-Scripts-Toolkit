@@ -1,6 +1,6 @@
 #"""
 # ==============================================================================
-# nuLibrary v9.6.2, built September 6 2022.
+# nuLibrary v9.6.3, built October 18 2022.
 
 # Author: Lundy Hu
 
@@ -64,6 +64,8 @@ import W_hotbox, W_hotboxManager
 
 
 
+
+
 #==================================================Python Scripts(MenuBar and Panel)==================================================#
 
 #----------------------------------------------------------------------------------------------------#MenuBar(Nuke)#s>h^i~~~
@@ -88,8 +90,6 @@ h = s.addMenu("Import_Export", "NUPD_Import_export.svg")
 i = h.addMenu("Collect_Files", icon="NUPD_Import_export.svg")
 i.addCommand('Collect Files', 'collectFiles.collectFiles()')
 i.addCommand('Help', 'collectFiles.myBlog()')
-
-
 
 #================================================================================Misc================================================================================
 h = s.addMenu("Misc", "NUPD_Misc.svg")

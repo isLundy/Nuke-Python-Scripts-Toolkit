@@ -396,6 +396,7 @@ class PluginsPath(nukescripts.PythonPanel):
                 if knob in list_knobs:
                     fullPath = list_knobs[0].getValue() + list_knobs[1].getValue()
                     QtGui.QGuiApplication.clipboard().setText(fullPath)
-                    
+
+
 ppPanel = PluginsPath()
 ppPanel.showModal()

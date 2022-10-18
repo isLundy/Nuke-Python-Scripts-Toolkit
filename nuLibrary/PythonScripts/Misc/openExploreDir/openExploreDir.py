@@ -17,7 +17,7 @@ def openExplorer(path):
     else:
         subprocess.Popen(["xdg-open", path])
 
-# open nk or file directory
+# open current project directory or node file knob directory (like Write Node, ReadGeo Node, Camera Node, WriteGeo, etc)
 def openFileDir():
 
     if len(nuke.selectedNodes()) != 0:
