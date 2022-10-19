@@ -14,5 +14,5 @@ import os
 
 version = '9.6.2'
 year = '2022'
-releaseDate = 'September 6 {}'.format(year)
+releaseDate = 'October 18 {}'.format(year)
 print('nuLibrary v{}, built {}.\nCopyright (c) 2018-{} Lundy Hu.  All Rights Reserved.'.format(version, releaseDate, year))
