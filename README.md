@@ -89,7 +89,7 @@
 <br />
 
 什么 :question: 你还想了解怎么 uninstall :question: 直接 delete 即可~
-- 只需删除 `.nuke` :file_folder: 文件夹下 `init.py` 中的下列代码， `nuLibrary` :file_folder: 文件夹可删也可不删~
+- 只需删除 `.nuke` :file_folder: 文件夹下 `init.py` 中的下列代码， 删除 `nuLibrary` :file_folder: 文件夹。
 
   ```python
   nuke.pluginAddPath('./nuLibrary')
