@@ -223,7 +223,7 @@ A:
 
   安装到 .nuke :file_folder: 文件夹后可以看到以下结构示例：
 
-  | .nuke | /nuLibrary | /PythonScripts | /UI  | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox |         |
+  | .nuke | /nuLibrary | /PythonScripts | /UI  | /AnimationMaker<br />/Channel_Hotbox<br />/CloseAllProperties<br />/SearchReplacePanel<br />/W_hotbox | script.py |
   | :---  | :---       | :---           | :--- | :---            | :---        |
   |       | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | 脚本文件夹名 :arrow_heading_up: | 脚本文件:arrow_heading_up: |
   |       |            | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
