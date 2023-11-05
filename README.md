@@ -67,7 +67,7 @@
 <br />
 
 ## 安装 :books:
-> 已测试 Windows 10，Linux CentOS 7，macOS Sonoma。
+> 已测试 Windows 10，Linux CentOS 7，macOS Sonoma。建议使用 Nuke 13 或更新版本。
 
 > 若熟悉安装可略过
 
