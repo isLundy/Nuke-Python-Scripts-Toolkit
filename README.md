@@ -67,7 +67,7 @@
 <br />
 
 ## 安装 :books:
-> 要求： `NukeX 13 或更新版本`。
+要求： `NukeX 13 或更新版本`。
 
 > 已测试 Windows 10，Linux CentOS 7，macOS Sonoma。
 
