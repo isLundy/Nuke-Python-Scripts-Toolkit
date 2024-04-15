@@ -234,7 +234,6 @@ A:
 
   `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的目录路径（原 nuLibrary 下有 Gizmos、PythonScripts、Series 文件夹，因现只公开 PythonScripts，所以现在是会自动添加 PythonScripts 文件夹路径）。
   
-  `.nuke/nuLibrary/PythonScripts/menu.py` 非自动向 Nuke 添加，需要手动编写，请悉知。
 
 - 自定义方式添加脚本
 
