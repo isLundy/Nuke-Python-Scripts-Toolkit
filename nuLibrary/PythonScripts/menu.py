@@ -1,17 +1,8 @@
-#"""
-# ==============================================================================
-# nuLibrary v9.6.3, built October 18 2022.
-
+'''
 # Author: Lundy Hu
-
 # Email: lundyhu@outlook.com
-
 # See the https://github.com/isLundy/Nuke-PythonScripts-Toolkit for details.
-# ==============================================================================
-#"""
-
-import sys
-import os
+'''
 import nuke
 import nukescripts
 import platform
@@ -20,8 +11,8 @@ import platform
 
 nMajor = nuke.NUKE_VERSION_MAJOR
 nMinor = nuke.NUKE_VERSION_MINOR
+pst_v = 'v1.2'
 
-#--------------------------------------------------Import#
 #====================3D==========
 import animatedSnap3D
 
@@ -30,7 +21,6 @@ import collectFiles
 import CreateOutDirs
 
 #====================Misc==========
-
 #Default_Knob
 from default import default_main
 from default import helper
@@ -64,15 +54,12 @@ import W_hotbox, W_hotboxManager
 
 
 
-
-
-#==================================================Python Scripts(MenuBar and Panel)==================================================#
-
-#----------------------------------------------------------------------------------------------------#MenuBar(Nuke)#s>h^i~~~
+#===============================================================MenuBar#s>h^i~~~
 s = nuke.menu("Nuke").addMenu("PythonScripts")
 
-#================================================================================3D================================================================================
 
+
+#=============================================================================3D
 # animatedSnap3D
 try:
     m = nuke.menu('Axis').findItem('Snap')
@@ -83,7 +70,9 @@ try:
 except:
     pass
 
-#================================================================================Import_Export================================================================================
+
+
+#==================================================================Import_Export
 h = s.addMenu("Import_Export", "NUPD_Import_export.svg")
 
 #CollectFiles
@@ -91,7 +80,9 @@ i = h.addMenu("Collect_Files", icon="NUPD_Import_export.svg")
 i.addCommand('Collect Files', 'collectFiles.collectFiles()')
 i.addCommand('Help', 'collectFiles.myBlog()')
 
-#================================================================================Misc================================================================================
+
+
+#===========================================================================Misc
 h = s.addMenu("Misc", "NUPD_Misc.svg")
 
 #Default_automatic knobDefaults
@@ -113,16 +104,16 @@ helper.load_knob_defaults(init=True)
 
 #openExploreDir
 i = h.addMenu("OpenExploreDir", icon="NUPD_Misc.svg")
-i.addCommand("Open nk or file dir", "openExploreDir.openFileDir()", "+b", icon="Lundy_Tools.png")
-i.addCommand("Open .nuke dir", "openExploreDir.openDotNuke()", "+0", icon="Lundy_Tools.png")
-i.addCommand("Open nuke installation dir", "openExploreDir.openExePath()", icon="Lundy_Tools.png")
+i.addCommand("Open nk or file dir", "openExploreDir.openFileDir()", "+b", icon="openExploreDir.svg")
+i.addCommand("Open .nuke dir", "openExploreDir.openDotNuke()", "+0", icon="openExploreDir.svg")
+i.addCommand("Open nuke installation dir", "openExploreDir.openInstallDir()", icon="openExploreDir.svg")
 
 #readFromWrite
 h.addCommand('Read from Write', 'readFromWrite.run()', '+r', icon="NUPD_Misc.svg")
 
 
 
-#================================================================================NodeGraph================================================================================
+#======================================================================NodeGraph
 h = s.addMenu("NodeGraph", "NUPD_Nodegraph.svg")
 
 #AlignDots
@@ -145,10 +136,10 @@ else:
 
 #W_smartAlign
 i = h.addMenu("W_smartAlign", icon="NUPD_Nodegraph.svg")
-i.addCommand("Down", "W_smartAlign.alignNodes('down')", "#2", icon="Align_Down.svg", shortcutContext=2)
+i.addCommand("Up", "W_smartAlign.alignNodes('up')", "#8", icon="Align_Top.svg", shortcutContext=2)
+i.addCommand("Down", "W_smartAlign.alignNodes('down')", "#2", icon="Align_Bottom.svg", shortcutContext=2)
 i.addCommand("Left", "W_smartAlign.alignNodes('left')", "#4", icon="Align_Left.svg", shortcutContext=2)
 i.addCommand("Right", "W_smartAlign.alignNodes('right')", "#6", icon="Align_Right.svg", shortcutContext=2)
-i.addCommand("Up", "W_smartAlign.alignNodes('up')", "#8", icon="Align_Up.svg", shortcutContext=2)
 
 # V!ctor
 h.addSeparator()
@@ -159,7 +150,7 @@ i.addCommand("Preset Backdrop", "V_PresetBackdrop.presetBackdrop()", "#^b")
 
 
 
-#================================================================================UI================================================================================
+#=============================================================================UI
 h = s.addMenu("UI", "NUPD_UI.svg")
 
 #Channel hotbox
@@ -168,14 +159,16 @@ h.addCommand("Channel HotBox", "channel_hotbox.start()", "#q", icon="NUPD_UI.svg
 #CloseAllProperties
 h.addCommand("Close All Properties", "CloseAllProperties.CloseAllProperties()", "+d", icon="NUPD_UI.svg")
 
-#================================================================================zLundy================================================================================
+
+#===========================================================================Info
+s.addSeparator()
+h = s.addMenu("Info", "NUPD_Info.svg")
+h.addCommand(pst_v, "", icon="NUPD_Version.svg")
+h.addCommand("GitHub", "nukescripts.start('https://github.com/isLundy/Nuke-PythonScripts-Toolkit')", icon="NUPD_GitHub.svg")
 
 
 
-
-
-
-#----------------------------------------------------------------------------------------------------#Panel(Pane)#p>e^c~~~
+#----------------------------------------------------------#Panel(Pane)#p>e^c~~~
 p = nuke.menu('Pane')
 
 #SearchReplacePanel

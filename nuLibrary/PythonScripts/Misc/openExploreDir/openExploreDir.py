@@ -1,21 +1,10 @@
 import nuke
-import sys
-import os
-import platform
-import subprocess
+import nukescripts
+from pathlib import Path
 
 # open main
 def openExplorer(path):
-    operatingSystem = platform.system()
-
-    if operatingSystem == "Windows":
-        subprocess.Popen("explorer {}".format(path.replace('/', '\\')))
-
-    elif operatingSystem == "Darwin":
-        subprocess.Popen(["open", path])
-
-    else:
-        subprocess.Popen(["xdg-open", path])
+    nukescripts.start(path.as_posix())
 
 # open the current project directory or the file knob directory of the selected node(like Write Node, ReadGeo Node, Camera Node, WriteGeo, etc).
 def openFileDir():
@@ -23,21 +12,22 @@ def openFileDir():
     if len(nuke.selectedNodes()) != 0:
         for i in nuke.selectedNodes():
             try:
-                path = os.path.dirname(i.knob('file').evaluate())
+                path = Path(i.knob('file').evaluate()).parent
                 openExplorer(path)
             except:
                 pass
 
     else:
-        path = os.path.dirname(nuke.root().name())
-        openExplorer(path)
+        path = Path(nuke.root().name()).parent
+        if path:
+            openExplorer(path)
 
 # open .nuke directory
 def openDotNuke():
-    path = os.getenv('HOME') + "/.nuke"
+    path = Path.home().joinpath('.nuke')
     openExplorer(path)
 
 # open nuke installation directory
-def openExePath():
-    path = os.path.dirname(nuke.EXE_PATH)
+def openInstallDir():
+    path = Path(nuke.EXE_PATH).parent
     openExplorer(path)
