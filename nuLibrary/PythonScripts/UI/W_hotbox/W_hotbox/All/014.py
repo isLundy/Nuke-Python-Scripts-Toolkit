@@ -313,15 +313,8 @@ class PluginsPath(nukescripts.PythonPanel):
             self.searchByKeyWord()
         
     def openThePath(self, path):
-        # open folder
-        operatingSystem = platform.system()
-        
-        if operatingSystem == "Windows":
-            subprocess.Popen("explorer {}".format(path.replace('/', '\\')))
-        elif operatingSystem == "Darwin":
-            subprocess.Popen(["open", path])
-        else:
-            subprocess.Popen(["xdg-open", path])
+        # open folder or file
+        nukescripts.start(path)
           
     def knobChanged(self, knob):
         # button_float pane
