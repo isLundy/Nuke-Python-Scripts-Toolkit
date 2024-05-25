@@ -107,7 +107,7 @@
 
 <p align="center"><img src="./images/PythonScripts_layout.png"></p>
 
-<p>
+<p align="left">
       <img src="./images/PythonScripts_layout_01.png" height="100">
       <img src="./images/PythonScripts_layout_02.png" height="100">
       <img src="./images/PythonScripts_layout_03.png" height="100">
