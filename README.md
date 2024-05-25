@@ -30,7 +30,7 @@
 - [下载 :books:](#下载-books)
 - [安装 :books:](#安装-books)
 - [介绍 :books:](#介绍-books)
-  * [PythonScripts :scroll: 菜单](#pythonscripts-scroll-菜单)
+  * [PythonScripts 菜单 :scroll:](#pythonscripts-scroll-菜单)
     + [3D :label:](#3d-label)
     + [Import_Export :label:](#import_export-label)
     + [Misc :label:](#misc-label)
@@ -77,14 +77,14 @@
 2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则新建一个 `init.txt` 文件，并将以下代码复制到文件中，最后将 `init.txt` 更改为 `init.py`
    - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
    
-     （ `右键以记事本方式打开文件` 或用 `其他熟悉的一种方式打开`。若仍不会打开 :fearful:，请将电脑关 :chicken:，拔掉电源 :battery:，放入冰箱 :snowflake: :exclamation:）
+     （ `右键以记事本方式打开文件` 或用 `其他熟悉的一种方式打开`）
       
      ```python
      import nuke
 
      nuke.pluginAddPath('./nuLibrary')
      ```
-3. 打开 Nuke :radioactive: ，尽情享用 :yum: ~ :grey_exclamation:
+3. 打开 Nuke :radioactive: ，尽情享用 :yum: ~
 
 > 想要深入了解 Nuke 插件安装？请查看官方文档 [Installing Plug-ins](https://learn.foundry.com/nuke/developers/latest/pythondevguide/installing_plugins.html#installingplugins-ref-label)
 
@@ -101,9 +101,9 @@
 
 ## 介绍 :books:
 
-### PythonScripts :scroll: 菜单
+### PythonScripts 菜单 :scroll:
 
-完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` :scroll: 菜单。
+完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` 菜单 :scroll:。
 
 <p align="center"><img src="./images/PythonScripts_layout.png"></p>
 <p align="left"><img src="./images/PythonScripts_layout_01.png" height="150"></p>
@@ -214,7 +214,7 @@
 
 #### 问答 :question: :exclamation:
 
-Q. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` :scroll: 菜单中 :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
+Q. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜单中 :scroll: :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
 
 A:
 - 布局方式不同。有些作者的主要代码块内设置了布局，为方便以后的更新一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 Nuke 的 `Edit` 菜单最下面一项和 `Preferences` 面板最下面一项。对于 `animatedSnap3D`，使用方法中也有介绍到，它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。
@@ -235,7 +235,7 @@ A:
   |       | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | 脚本文件夹名 :arrow_heading_up: | 脚本文件 :arrow_heading_up: |
   |       |            | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
 
-  `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的脚本都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请勿在二级目录下放置文件，务必建立 :file_folder: 文件夹。
+  `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的脚本都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请勿在二级目录下放置文件，务必建立文件夹 :file_folder:。
 
   `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的目录路径（原 nuLibrary 下有 Gizmos、PythonScripts、Series 文件夹，因现只公开 PythonScripts，所以现在是会自动添加 PythonScripts 文件夹路径）。
   
