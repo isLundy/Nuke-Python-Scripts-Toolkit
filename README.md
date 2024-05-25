@@ -152,7 +152,7 @@
   - > _（原名：winExploreDir，原作者：Thorsten 编写，Varun Hadkar 发布。思路来源于 Thorsten，代码和名字现已全部被我更改，已适用于 Windows、Linux、Mac，并添加了新功能，也发布在了 [`NukePedia`](https://www.nukepedia.com/python/misc/openexploredir) 上。）_
   - > _使用方法：[https://github.com/isLundy/openExploreDir#feature](https://github.com/isLundy/openExploreDir#feature)_
 
-- `readFromWrite`
+- `read From Write`
   - > _作者：未知_
   - > _使用方法：表里如一，同字面意思。可使用快捷键从选定的 Write 节点读取已渲染的图像。_
 
