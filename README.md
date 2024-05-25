@@ -105,9 +105,16 @@
 
 完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` :scroll: 菜单。
 
-<p align="center"><img src="./images/PythonScripts_layout.png"></p> 
+<p align="center"><img src="./images/PythonScripts_layout.png"></p>
 
-![1](<img src="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/blob/main/images/PythonScripts_layout_01.png">)![2](<img src="/images/PythonScripts_layout_02.png">)![3](<img src="./images/PythonScripts_layout_03.png">)![4](<img src="./images/PythonScripts_layout_04.png">)![5](<img src="./images/PythonScripts_layout_05.png">)
+<p align="center">
+      <img src="./images/PythonScripts_layout_01.png" width="200" style="display: inline-block;" />
+      <img src="./images/PythonScripts_layout_02.png" width="200" style="display: inline-block;" />
+      <img src="./images/PythonScripts_layout_03.png" width="200" style="display: inline-block;" />
+      <img src="./images/PythonScripts_layout_04.png" width="200" style="display: inline-block;" />
+      <img src="./images/PythonScripts_layout_05.png" width="200" style="display: inline-block;" />
+</p>
+
 
 <br />
 
