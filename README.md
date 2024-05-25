@@ -107,12 +107,12 @@
 
 <p align="center"><img src="./images/PythonScripts_layout.png"></p>
 
-<p align="center">
-      <img src="./images/PythonScripts_layout_01.png" width="200" style="display: inline-block;" />
-      <img src="./images/PythonScripts_layout_02.png" width="200" style="display: inline-block;" />
-      <img src="./images/PythonScripts_layout_03.png" width="200" style="display: inline-block;" />
-      <img src="./images/PythonScripts_layout_04.png" width="200" style="display: inline-block;" />
-      <img src="./images/PythonScripts_layout_05.png" width="200" style="display: inline-block;" />
+<p>
+      <img src="./images/PythonScripts_layout_01.png" style="width: auto; max-width: 30%;" />
+      <img src="./images/PythonScripts_layout_02.png" style="width: auto; max-width: 30%;" />
+      <img src="./images/PythonScripts_layout_03.png" style="width: auto; max-width: 30%;" />
+      <img src="./images/PythonScripts_layout_04.png" style="width: auto; max-width: 30%;" />
+      <img src="./images/PythonScripts_layout_05.png" style="width: auto; max-width: 30%;" />
 </p>
 
 
