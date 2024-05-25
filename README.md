@@ -106,14 +106,11 @@
 完成安装后 :heavy_check_mark: 可以看到位于 Nuke 顶部菜单栏右侧的 `PythonScripts` :scroll: 菜单。
 
 <p align="center"><img src="./images/PythonScripts_layout.png"></p>
-
-
 <p align="left"><img src="./images/PythonScripts_layout_01.png" height="150"></p>
 <p align="left"><img src="./images/PythonScripts_layout_02.png" height="150"></p>
 <p align="left"><img src="./images/PythonScripts_layout_03.png" height="150"></p>
 <p align="left"><img src="./images/PythonScripts_layout_04.png" height="150"></p>
 <p align="left"><img src="./images/PythonScripts_layout_05.png" height="150"></p>
-
 
 <br />
 
@@ -211,7 +208,7 @@
 
 - `W_hotbox `
   - > _作者：Wouter Gilsing_
-  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的一些脚本 也放在了 W_hotbox 中，因为实在是太方便了。_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的很多脚本也放在了 W_hotbox 中，因为实在是太方便了。_
 
 <br />
 
