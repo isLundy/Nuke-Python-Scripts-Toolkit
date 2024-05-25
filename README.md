@@ -107,7 +107,7 @@
 
 <p align="center"><img src="./images/PythonScripts_layout.png"></p> 
 
-<p align="center"><img src="./images/PythonScripts_layout_01.png"><img src="./images/PythonScripts_layout_02.png"><img src="./images/PythonScripts_layout_03.png"></p>  
+<p><img src="./images/PythonScripts_layout_01.png"><img src="./images/PythonScripts_layout_02.png"><img src="./images/PythonScripts_layout_03.png"></p>  
 
 <br />
 
