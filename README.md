@@ -30,7 +30,7 @@
 - [下载 :books:](#下载-books)
 - [安装 :books:](#安装-books)
 - [介绍 :books:](#介绍-books)
-  * [PythonScripts 菜单 :scroll:](#pythonscripts-scroll-菜单)
+  * [PythonScripts 菜单 :scroll:](#pythonscripts-菜单-scroll)
     + [3D :label:](#3d-label)
     + [Import_Export :label:](#import_export-label)
     + [Misc :label:](#misc-label)
