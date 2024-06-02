@@ -39,7 +39,7 @@
   * [添加脚本的两种思路 :bulb:](#添加脚本的两种思路-bulb)
     + [非特定节点类的脚本](#非特定节点类的脚本)
     + [针对特定节点类的脚本](#针对特定节点类的脚本)
-  * [PythonScripts :toolbox: 目录结构](#pythonscripts-toolbox-目录结构)
+  * [PythonScripts 目录结构 :file_folder:](#pythonscripts-toolbox-目录结构-file_folder)
   * [问答 :question: :exclamation:](#问答-question-exclamation)
 - [附录 :books:](#附录-books)
 - [证书 :books:](#证书-books)
@@ -231,7 +231,7 @@
 
 ---
 
-### PythonScripts :toolbox: 目录结构
+### PythonScripts 目录结构 :file_folder:
 > 若不熟悉 Python 可略过。
 
 - 在现有基础上添加脚本
