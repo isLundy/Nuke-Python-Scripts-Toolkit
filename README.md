@@ -246,7 +246,9 @@
   |       | 工具库名 :arrow_heading_up: | 工具包名 :arrow_heading_up: | 分类名 :arrow_heading_up: | 脚本文件夹名 :arrow_heading_up: | 脚本文件 :arrow_heading_up: |
   |       |            | 当前目录 :arrow_heading_up: | 二级目录 :arrow_heading_up: | 三级目录 :arrow_heading_up: |             |
 
-  `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的脚本都可以放到相应的 `三级目录` 下。由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请勿在二级目录下放置文件，务必建立文件夹 :file_folder:。
+  `.nuke/nuLibrary/PythonScripts/init.py` 会 `自动` 添加 `PythonScripts`目录下的 `第三级目录`的路径，所有的脚本都可以放到相应的 `三级目录` 下。
+
+  由于 PythonScripts 下的二级目录是分类名，无需添加到 Nuke 的插件路径中，所以请勿在二级目录下放置文件，务必建立文件夹 :file_folder:。
 
   `.nuke/nuLibrary/init.py` 会 `自动` 添加 `nuLibrary` 目录下的目录路径（原 nuLibrary 下有 Gizmos、PythonScripts、Series 文件夹，因现只公开 PythonScripts，所以现在是会自动添加 PythonScripts 文件夹路径）。
   
@@ -254,8 +256,6 @@
 - 自定义方式添加脚本
 
   请自行修改 `init.py` 和 `menu.py`。
-
-  > 使用代码时请勿遍历添加 `所有` 目录路径，请利用适当的条件判断只添加需求的目录即可，否则可能会导致 Nuke 打开速度变慢或其他未知问题，原因是某些插件文件夹内含有很多的 .py 文件，但这些文件夹路径都不需要添加到 Nuke 的插件路径中（经测试打开速度会变慢约 20 - 30 s）。
 
 <br />
 
