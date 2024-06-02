@@ -77,8 +77,8 @@
 > 若熟悉安装可略过
 
 1. 下载 `.zip` :briefcase: 文件解压后将 `nuLibrary` :file_folder: 文件夹复制到用户目录的 `.nuke` :file_folder: 文件夹内。
-2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则新建一个 `init.txt` 文件，并将以下代码复制到文件中，最后将 `init.txt` 更改为 `init.py`
-   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中。
+2. - 若 `.nuke` :file_folder: 文件夹内没有 `init.py` 文件，则新建一个 `init.txt` 文件，并将以下代码复制到文件中，保存关闭，最后将 `init.txt` 更改为 `init.py`
+   - 若 `.nuke` :file_folder: 文件夹内存在 `init.py` 文件，打开 `init.py`，并将以下代码复制到文件中，保存关闭。
    
      （ `右键以记事本方式打开文件` 或用 `其他熟悉的一种方式打开`）
       
