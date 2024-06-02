@@ -20,7 +20,7 @@
     <a href="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic">
         <img src="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic"></a>
     <a href="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest">
-        <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?color=%2300CC00&style=plastic"></a>
+        <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?display_name=release&style=plastic&color=Chartreuse"></a>
 </p>
 
 <br />
