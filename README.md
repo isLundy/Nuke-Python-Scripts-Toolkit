@@ -36,7 +36,7 @@
     + [Misc :label:](#misc-label)
     + [NodeGraph :label:](#nodegraph-label)
     + [UI :label:](#ui-label)
-  * [添加脚本的两种方式：](#添加脚本的两种方式)
+  * [添加脚本的两种思路：](#添加脚本的两种思路)
     + [非特定节点类的脚本](#非特定节点类的脚本)
     + [针对特定节点类的脚本](#针对特定节点类的脚本)
   * [问答 :question: :exclamation:](#问答-question-exclamation)
@@ -215,7 +215,7 @@
 
 <br />
 
-### 添加脚本的两种方式：
+### 添加脚本的两种思路：
 
 #### 非特定节点类的脚本
 - 使用频率很高且需要快捷键，一般放在 `PythonScripts` 菜单中。
