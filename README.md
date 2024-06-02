@@ -39,8 +39,8 @@
   * [添加脚本的两种思路 :bulb:](#添加脚本的两种思路-bulb)
     + [非特定节点类的脚本](#非特定节点类的脚本)
     + [针对特定节点类的脚本](#针对特定节点类的脚本)
-  * [问答 :question: :exclamation:](#问答-question-exclamation)
   * [PythonScripts :toolbox: 目录结构](#pythonscripts-toolbox-目录结构)
+  * [问答 :question: :exclamation:](#问答-question-exclamation)
 - [附录 :books:](#附录-books)
 - [证书 :books:](#证书-books)
 > 可单击标题直接导航到该部分。
@@ -231,14 +231,6 @@
 
 ---
 
-### 问答 :question: :exclamation:
-
-有任何问题可随时在[此处](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/discussions)发起讨论～
-
-<br />
-
----
-
 ### PythonScripts :toolbox: 目录结构
 > 若不熟悉 Python 可略过。
 
@@ -261,6 +253,14 @@
   请自行修改 `init.py` 和 `menu.py`。
 
   > 使用代码时请勿遍历添加 `所有` 目录路径，请利用适当的条件判断只添加需求的目录即可，否则可能会导致 Nuke 打开速度变慢或其他未知问题，原因是某些插件文件夹内含有很多的 .py 文件，但这些文件夹路径都不需要添加到 Nuke 的插件路径中（经测试打开速度会变慢约 20 - 30 s）。
+
+<br />
+
+---
+
+### 问答 :question: :exclamation:
+
+有任何问题可随时在[此处](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/discussions)发起讨论～
 
 <br />
 
