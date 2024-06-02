@@ -214,12 +214,7 @@
 
 #### 问答 :question: :exclamation:
 
-Q. 安装完打开 Nuke 后为什么有些没有显示在 `PythonScripts` 菜单中 :scroll: :question: 例如 `W_hotbox` `animatedSnap3D` 或者 `CreateOutDirs`。
-
-A:
-- 布局方式不同。有些作者的主要代码块内设置了布局，为方便以后的更新一般采用作者的默认设置。对于 `W_hotbox`，看了它的使用方法后会发现它分别显示在了 Nuke 的 `Edit` 菜单最下面一项和 `Preferences` 面板最下面一项。对于 `animatedSnap3D`，使用方法中也有介绍到，它会显示在 `Card`、 `Cube`、 `Camera` 等这类三维节点面板的 `snap_menu` 旋钮中。
-
-- 非必要显示。像 `CreateOutDirs` 这类自动启动、自动运行、全程后台的脚本。
+有任何问题可随时在[此处](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/discussions)发起讨论～
 
 <br />
 
