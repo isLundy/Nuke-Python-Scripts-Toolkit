@@ -120,18 +120,6 @@
 
 <br />
 
-### 添加脚本的两种方式：
-
-非特定节点类的脚本
-- 使用频率很高且需要快捷键，一般放在 `PythonScripts` 菜单中。
-- 使用频率较低且无需快捷键，一般放在 `PythonScripts` 菜单中。
-- 使用频率很高但不需要设置快捷键，一般放在 `W_hotbox` 中.
-
-针对特定节点类的脚本
-- 一般放在 `W_hotbox` 中。
-
-<br />
-
 #### 3D :label:
 - `animatedSnap3D`
 
@@ -221,6 +209,18 @@
 - `W_hotbox `
   - > _作者：Wouter Gilsing_
   - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的很多脚本也放在了 W_hotbox 中，因为实在是太方便了。_
+
+<br />
+
+### 添加脚本的两种方式：
+
+#### 非特定节点类的脚本
+- 使用频率很高且需要快捷键，一般放在 `PythonScripts` 菜单中。
+- 使用频率较低且无需快捷键，一般放在 `PythonScripts` 菜单中。
+- 使用频率很高但不需要设置快捷键，一般放在 `W_hotbox` 中.
+
+#### 针对特定节点类的脚本
+- 一般放在 `W_hotbox` 中。
 
 <br />
 
