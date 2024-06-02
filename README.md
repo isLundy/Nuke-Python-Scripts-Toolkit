@@ -36,8 +36,8 @@
     + [Misc :label:](#misc-label)
     + [NodeGraph :label:](#nodegraph-label)
     + [UI :label:](#ui-label)
-  * [添加脚本的两种思路 :bulb:](#添加脚本的两种思路-bulb)
-    + [非特定节点类的脚本](#非特定节点类的脚本)
+  * [添加新脚本的思路 :bulb:](#添加新脚本的思路-bulb)
+    + [针对非特定节点类的脚本](#针对非特定节点类的脚本)
     + [针对特定节点类的脚本](#针对特定节点类的脚本)
   * [PythonScripts 目录结构 :file_folder:](#pythonscripts-目录结构-file_folder)
   * [问答 :question: :exclamation:](#问答-question-exclamation)
@@ -219,10 +219,10 @@
 
 ---
 
-### 添加脚本的两种思路 :bulb:
+### 添加新脚本的思路 :bulb:
 > 对于我个人编写的脚本是采用下面的方式.对于其他作者的脚本，如果其作者将脚本发布在了 `NukePedia上` ，则按照 `NukePedia` 上的分类规则。
 
-#### 非特定节点类的脚本
+#### 针对非特定节点类的脚本
 - 使用`频率很高`且`需要设置快捷键`，一般放在 `PythonScripts` 菜单中。
 - 使用`频率较低`且`无需设置快捷键`，一般放在 `PythonScripts` 菜单中。
 - 使用`频率很高`但`不需要设置快捷键`，一般放在 `W_hotbox` 中.
