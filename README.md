@@ -211,9 +211,11 @@
 
 - `W_hotbox `
   - > _作者：Wouter Gilsing_
-  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的很多脚本也放在了 W_hotbox 中，因为实在是太方便了。_
+  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的很多脚本也放在了 W_hotbox 中，因为实在是太方便了。
 
 <br />
+
+---
 
 ### 添加脚本的两种思路
 
@@ -227,11 +229,15 @@
 
 <br />
 
+---
+
 ### 问答 :question: :exclamation:
 
 有任何问题可随时在[此处](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/discussions)发起讨论～
 
 <br />
+
+---
 
 ### PythonScripts :toolbox: 目录结构
 > 若不熟悉 Python 可略过。
