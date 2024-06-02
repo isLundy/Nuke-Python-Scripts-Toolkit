@@ -2,11 +2,13 @@
 #
 # AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
 #
-# NAME: Set to current frame
+# NAME: Center
 #
 #----------------------------------------------------------------------------------------------------------
 
+width = nuke.root()['format'].value().width()
+height = nuke.root()['format'].value().height()
+center = (width/2, height/2)
+
 for node in nuke.selectedNodes():
-    for knob in node.allKnobs():
-        if knob.label() == 'set to current frame':
-            knob.execute()
+    node['translate'].setValue(center)

@@ -6,12 +6,13 @@
 import nuke
 import nukescripts
 import platform
+from pathlib import Path
 
 
 
 nMajor = nuke.NUKE_VERSION_MAJOR
 nMinor = nuke.NUKE_VERSION_MINOR
-pst_v = 'v1.2'
+pst_v = 'v1.3'
 
 #====================3D==========
 import animatedSnap3D
@@ -60,7 +61,12 @@ s = nuke.menu("Nuke").addMenu("PythonScripts")
 
 
 #=============================================================================3D
+h = s.addMenu("3D", "PST_3D.svg")
+
 # animatedSnap3D
+i = h.addMenu("animatedSnap3D", icon="PST_Prompt_01.svg")
+i.addCommand('[ go here: Node > Snap menu > Match ... ]', '', icon="PST_Prompt_02.svg").setEnabled(False)
+
 try:
     m = nuke.menu('Axis').findItem('Snap')
     m.addSeparator()
@@ -73,20 +79,29 @@ except:
 
 
 #==================================================================Import_Export
-h = s.addMenu("Import_Export", "NUPD_Import_export.svg")
+h = s.addMenu("Import_Export", "PST_Import_export.svg")
 
 #CollectFiles
-i = h.addMenu("Collect_Files", icon="NUPD_Import_export.svg")
+i = h.addMenu("Collect_Files", icon="PST_Import_export.svg")
 i.addCommand('Collect Files', 'collectFiles.collectFiles()')
 i.addCommand('Help', 'collectFiles.myBlog()')
+
+#CreateOutDirs
+i = h.addMenu("Create Out Dirs", icon="PST_Prompt_01.svg")
+i.addCommand('[ Automatically Enabled ]', '',icon="PST_Prompt_02.svg").setEnabled(False)
 
 
 
 #===========================================================================Misc
-h = s.addMenu("Misc", "NUPD_Misc.svg")
+h = s.addMenu("Misc", "PST_Misc.svg")
+
+# Auto open .nk as NukeX
+i = h.addMenu('Auto open .nk as NukeX', icon="PST_Misc.svg")
+reg_path = Path(__file__).absolute().parent.joinpath('Misc/Auto_open_nk_as_NukeX').as_posix()
+i.addCommand('Open the folder to set ( only Windows )', 'nukescripts.start(reg_path)', icon="openExploreDir.svg")
 
 #Default_automatic knobDefaults
-i = h.addMenu("Default_automatic knobDefaults", icon="NUPD_Misc.svg")
+i = h.addMenu("Default_automatic knobDefaults", icon="PST_Misc.svg")
 i.addCommand("Defaults window", default_main.show_defaults_window)
 i.addSeparator()
 i.addCommand("About", about.show_about, icon="")
@@ -103,39 +118,39 @@ nuke.menu("Animation").addCommand("Default/Reset",
 helper.load_knob_defaults(init=True)
 
 #openExploreDir
-i = h.addMenu("OpenExploreDir", icon="NUPD_Misc.svg")
+i = h.addMenu("OpenExploreDir", icon="PST_Misc.svg")
 i.addCommand("Open nk or file dir", "openExploreDir.openFileDir()", "+b", icon="openExploreDir.svg")
 i.addCommand("Open .nuke dir", "openExploreDir.openDotNuke()", "+0", icon="openExploreDir.svg")
 i.addCommand("Open nuke installation dir", "openExploreDir.openInstallDir()", icon="openExploreDir.svg")
 
 #readFromWrite
-h.addCommand('Read from Write', 'readFromWrite.run()', '+r', icon="NUPD_Misc.svg")
+h.addCommand('Read from Write', 'readFromWrite.run()', '+r', icon="PST_Misc.svg")
 
 
 
 #======================================================================NodeGraph
-h = s.addMenu("NodeGraph", "NUPD_Nodegraph.svg")
+h = s.addMenu("NodeGraph", "PST_Nodegraph.svg")
 
 #AlignDots
-h.addCommand("Align Dots", "AlignDots.AlignDots()", "#0", icon="NUPD_Nodegraph.svg", shortcutContext=2)
+h.addCommand("AlignDots", "AlignDots.AlignDots()", "#0", icon="PST_Nodegraph.svg", shortcutContext=2)
 
 #AlignNodes
-i = h.addMenu("AlignNodes", icon="NUPD_Nodegraph.svg")
+i = h.addMenu("AlignNodes", icon="PST_Nodegraph.svg")
 i.addCommand("hCenter", "alignNodes.alignNodes( nuke.selectedNodes(), direction='x' )", "#5", icon="Align_hCenter.svg")
 i.addCommand("vCenter", "alignNodes.alignNodes( nuke.selectedNodes(), direction='y' )", "^5", icon="Align_vCenter.svg")
 
 #MultiChannelSplit
-h.addCommand("MultiChannelSplit", "MultiChannelSplit.MultiChannelSplit()", "#m", icon="NUPD_Nodegraph.svg")
+h.addCommand("MultiChannelSplit", "MultiChannelSplit.MultiChannelSplit()", "#m", icon="PST_Nodegraph.svg")
 
 #W_scaleTree
 operatingSystem = platform.system()
 if operatingSystem == "Linux":
-    h.addCommand("W_scaleTree", "W_scaleTree.scaleTreeFloatingPanel()", "#1", icon="NUPD_Nodegraph.svg")
+    h.addCommand("W_scaleTree", "W_scaleTree.scaleTreeFloatingPanel()", "#1", icon="PST_Nodegraph.svg")
 else:
-    h.addCommand("W_scaleTree", "W_scaleTree.scaleTreeFloatingPanel()", "#`", icon="NUPD_Nodegraph.svg")
+    h.addCommand("W_scaleTree", "W_scaleTree.scaleTreeFloatingPanel()", "#`", icon="PST_Nodegraph.svg")
 
 #W_smartAlign
-i = h.addMenu("W_smartAlign", icon="NUPD_Nodegraph.svg")
+i = h.addMenu("W_smartAlign", icon="PST_Nodegraph.svg")
 i.addCommand("Up", "W_smartAlign.alignNodes('up')", "#8", icon="Align_Top.svg", shortcutContext=2)
 i.addCommand("Down", "W_smartAlign.alignNodes('down')", "#2", icon="Align_Bottom.svg", shortcutContext=2)
 i.addCommand("Left", "W_smartAlign.alignNodes('left')", "#4", icon="Align_Left.svg", shortcutContext=2)
@@ -143,7 +158,7 @@ i.addCommand("Right", "W_smartAlign.alignNodes('right')", "#6", icon="Align_Righ
 
 # V!ctor
 h.addSeparator()
-i = h.addMenu("V!ctor", icon="NUPD_Nodegraph.svg")
+i = h.addMenu("V!ctor", icon="PST_Nodegraph.svg")
 i.addCommand("Convert Gizmo to Group", "V_ConvertGizmosToGroups.convertGizmosToGroups()", "^+h")
 i.addCommand("Generate PostageStamp from node", "V_PostageStampGenerator.postageStampGenerator()", "#^p")
 i.addCommand("Preset Backdrop", "V_PresetBackdrop.presetBackdrop()", "#^b")
@@ -151,20 +166,32 @@ i.addCommand("Preset Backdrop", "V_PresetBackdrop.presetBackdrop()", "#^b")
 
 
 #=============================================================================UI
-h = s.addMenu("UI", "NUPD_UI.svg")
+h = s.addMenu("UI", "PST_UI.svg")
+
+# AnimationMaker
+i = h.addMenu("AnimationMaker", icon="PST_Prompt_01.svg")
+i.addCommand("[ go here: Node > Animation (right-click) > Animation Maker... ]", '', icon="PST_Prompt_02.svg").setEnabled(False)
 
 #Channel hotbox
-h.addCommand("Channel HotBox", "channel_hotbox.start()", "#q", icon="NUPD_UI.svg")
+h.addCommand("Channel HotBox", "channel_hotbox.start()", "#q", icon="PST_UI.svg")
 
 #CloseAllProperties
-h.addCommand("Close All Properties", "CloseAllProperties.CloseAllProperties()", "+d", icon="NUPD_UI.svg")
+h.addCommand("CloseAllProperties", "CloseAllProperties.CloseAllProperties()", "+d", icon="PST_UI.svg")
+
+# SearchReplacePanel
+i = h.addMenu("SearchReplacePanel", icon="PST_Prompt_01.svg")
+i.addCommand("[ go here: Pane (right-click) > Windows > Custom > SearchReplace ]", '', icon="PST_Prompt_02.svg").setEnabled(False)
+
+# W_hotbox
+i = h.addMenu("W_hotbox", icon="PST_Prompt_01.svg")
+i.addCommand("[ go here: Menu > Edit > W_hotbox ]", '', icon="PST_Prompt_02.svg").setEnabled(False)
 
 
 #===========================================================================Info
 s.addSeparator()
-h = s.addMenu("Info", "NUPD_Info.svg")
-h.addCommand(pst_v, "", icon="NUPD_Version.svg")
-h.addCommand("GitHub", "nukescripts.start('https://github.com/isLundy/Nuke-PythonScripts-Toolkit')", icon="NUPD_GitHub.svg")
+h = s.addMenu("Info", "PST_Info.svg")
+h.addCommand("GitHub", "nukescripts.start('https://github.com/isLundy/Nuke-PythonScripts-Toolkit')", icon="PST_GitHub.svg")
+h.addCommand(pst_v, "nukescripts.start('https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest')", icon="PST_Version.svg")
 
 
 

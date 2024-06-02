@@ -1,0 +1,6 @@
+Automatically associate .nk files with NukeX in the Windows registry, so double-clicking Nuke scripts will open them as NukeX.
+
+
+|| Installation
+
+If not, open one of those keys using a text editor (notepad, for instance) and change the version number in the path. Save and run and that's it.

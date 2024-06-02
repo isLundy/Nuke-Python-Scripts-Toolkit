@@ -2,11 +2,13 @@
 #
 # AUTOMATICALLY GENERATED FILE TO BE USED BY W_HOTBOX
 #
-# NAME: Set to current frame
+# NAME: Swap
 #
 #----------------------------------------------------------------------------------------------------------
 
 for node in nuke.selectedNodes():
-    for knob in node.allKnobs():
-        if knob.label() == 'set to current frame':
-            knob.execute()
+    option = node['operation']
+    if int(option.getValue()) == 0:
+        option.setValue(1)
+    else:
+        option.setValue(0)

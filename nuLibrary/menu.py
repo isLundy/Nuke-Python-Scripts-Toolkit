@@ -5,7 +5,7 @@
 '''
 import datetime
 
-version = 'v1.2'
+version = 'v1.3'
 built_year = '2024'
 cur_year = datetime.datetime.now().year
 
