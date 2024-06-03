@@ -43,11 +43,11 @@
 
 ## 前言 :books:
 
-很久前整合制作了一个名为 `nuLibrary` 的工具库（大约是在2018年12月，后续一直慢慢地优化），`nuLibrary` 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，少部分为自己编写。
+很久前整合制作了一个名为 `nuLibrary` 的工具库（大约是在2018年12月，后续一直不断的整合优化），`nuLibrary` 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，其他为自己编写。
 
 `nuLibrary` 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :toolbox:。 `Gizmos` :toolbox: 和 `Series` :toolbox: 主要针对于我个人使用习惯做了排版布局，与 [`NukeSurvivalToolkit`](https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease) 中的内容相似，其表面的最大区别就是在 Nuke 中的布局，所以暂不公开，无太多意义。
 
-在 `PythonScripts` :toolbox: 中整合了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`** 且 **`优雅`** 的 scripts（脚本，或者称之为插件 :electric_plug:），这完全改变了我与 Nuke 的交互方式。
+`PythonScripts` :toolbox: 中包含了我在 Nuke 中所使用的一些较为 **`实用`**、 **`高效`**、 **`便捷`** 的 scripts（脚本，或者称之为插件），不仅可以加快工作流程，而且也非常有趣，这完全改变了我与 Nuke 的交互方式。
 
 <br />
 
