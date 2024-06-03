@@ -30,8 +30,8 @@
     + [NodeGraph :label:](#nodegraph-label)
     + [UI :label:](#ui-label)
   * [添加新脚本的思路 :bulb:](#添加新脚本的思路-bulb)
-    + [针对非特定节点类的脚本 :card_index_dividers:](#针对非特定节点类的脚本-card_index_dividers)
-    + [针对特定节点类的脚本 :card_index_dividers:](#针对特定节点类的脚本-card_index_dividers)
+    + [针对非特定节点类的脚本 :card_index_dividers:](#针对非特定节点类的脚本-test_tube)
+    + [针对特定节点类的脚本 :card_index_dividers:](#针对特定节点类的脚本-test_tube)
   * [PythonScripts 目录结构 :file_folder:](#pythonscripts-目录结构-file_folder)
   * [问答 :question: :exclamation:](#问答-question-exclamation)
 - [附录 :books:](#附录-books)
@@ -111,6 +111,8 @@
 <br />
 
 ---
+
+### 分类
 
 `PythonScripts` :toolbox: 遵循 [`NukePedia`](https://www.nukepedia.com/python-downloads) 的分类方式，以下为各种分类文件夹内脚本的介绍。目前存在`3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应脚本继续添加分类）。有关快捷键，请在 `PythonScripts` 菜单 :scroll: 内查看。
 
@@ -217,12 +219,12 @@
 ### 添加新脚本的思路 :bulb:
 > 对于我个人编写的脚本是采用下面的方式.对于其他作者的脚本，如果其作者将脚本发布在了 `NukePedia上` ，则按照 `NukePedia` 上的分类规则。
 
-#### 针对非特定节点类的脚本 :card_index_dividers:
+#### 针对非特定节点类的脚本 :test_tube:
 - 使用`频率很高`且`需要设置快捷键`，一般放在 `PythonScripts` 菜单中。
 - 使用`频率较低`且`无需设置快捷键`，一般放在 `PythonScripts` 菜单中。
 - 使用`频率很高`但`不需要设置快捷键`，一般放在 `W_hotbox` 中.
 
-#### 针对特定节点类的脚本 :card_index_dividers:
+#### 针对特定节点类的脚本 :test_tube:
 - 一般放在 `W_hotbox` 中。
 
 <br />
