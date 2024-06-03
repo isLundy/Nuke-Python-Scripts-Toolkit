@@ -30,7 +30,7 @@
     + [Misc :label:](#misc-label)
     + [NodeGraph :label:](#nodegraph-label)
     + [UI :label:](#ui-label)
-  * [添加新脚本的思路 :bulb:](#添加新脚本的思路-bulb)
+  * [新脚本的摆放位置 :bulb:](#新脚本的摆放位置-bulb)
     + [针对非特定节点类的脚本 :test_tube:](#针对非特定节点类的脚本-test_tube)
     + [针对特定节点类的脚本 :test_tube:](#针对特定节点类的脚本-test_tube)
   * [PythonScripts 目录结构 :file_folder:](#pythonscripts-目录结构-file_folder)
@@ -217,7 +217,7 @@
 
 ---
 
-### 添加新脚本的思路 :bulb:
+### 新脚本的摆放位置 :bulb:
 > 对于我个人编写的脚本是采用下面的方式.对于其他作者的脚本，如果其作者将脚本发布在了 `NukePedia上` ，则按照 `NukePedia` 上的分类规则。
 
 #### 针对非特定节点类的脚本 :test_tube:
