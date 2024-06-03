@@ -43,7 +43,7 @@
 
 ## 前言 :books:
 
-很久前整合制作了一个名为 `nuLibrary` 的工具库（大约是在2018年12月，后续一直不断的整合优化），`nuLibrary` 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，其他为自己编写。
+很久前整合制作了一个名为 `nuLibrary` （/njuːˈlɪbrəri/）的工具库（大约是在2018年12月，后续一直不断的整合优化），`nuLibrary` 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，其他为自己编写。
 
 `nuLibrary` 一直在作为个人使用，最近决定公开发布其中的 `PythonScripts` :toolbox:。 `Gizmos` :toolbox: 和 `Series` :toolbox: 主要针对于我个人使用习惯做了排版布局，与 [`NukeSurvivalToolkit`](https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease) 中的内容相似，其表面的最大区别就是在 Nuke 中的布局，所以暂不公开，无太多意义。
 
