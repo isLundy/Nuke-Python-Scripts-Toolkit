@@ -1,6 +1,6 @@
 <h1 align="center"> 
       <img src="/images/PythonScripts_show.png">
-      <br /> PythonScripts Toolkit for Nuke
+      <br /> Nuke PythonScripts Toolkit
 </h1>
 
 <br />
