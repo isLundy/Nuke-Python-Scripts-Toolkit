@@ -24,6 +24,7 @@
 - [安装 :books:](#安装-books)
 - [介绍 :books:](#介绍-books)
   * [PythonScripts 菜单 :scroll:](#pythonscripts-菜单-scroll)
+  * [分类 :card_index_dividers:](#分类-card_index_dividers)
     + [3D :label:](#3d-label)
     + [Import_Export :label:](#import_export-label)
     + [Misc :label:](#misc-label)
@@ -112,7 +113,7 @@
 
 ---
 
-### 分类
+### 分类 :card_index_dividers:
 
 `PythonScripts` :toolbox: 遵循 [`NukePedia`](https://www.nukepedia.com/python-downloads) 的分类方式，以下为各种分类文件夹内脚本的介绍。目前存在`3D` :label:、`Import_Export` :label:、`Misc` :label:、`NodeGraph` :label:、`UI` :label: 五种分类（以后可能会根据相应脚本继续添加分类）。有关快捷键，请在 `PythonScripts` 菜单 :scroll: 内查看。
 
