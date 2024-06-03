@@ -213,7 +213,7 @@
 
 - `W_hotbox `
   - > _作者：Wouter Gilsing_
-  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的很多脚本也放在了 W_hotbox 中，因为实在是太方便了。
+  - > _使用方法：[https://www.nukepedia.com/python/ui/w_hotbox](https://www.nukepedia.com/python/ui/w_hotbox)，我个人编写的很多脚本也放在了 W_hotbox 中。_
 
 <br />
 
