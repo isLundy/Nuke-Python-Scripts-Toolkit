@@ -6,13 +6,9 @@
 <br />
 
 <p align="center">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/isLundy/Nuke-Python-Scripts-Toolkit">
-    <a href="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?color=%2300BFFF&style=plastic">
-        <img src="https://img.shields.io/github/last-commit/isLundy/Nuke-PythonScripts-Toolkit?color=%2300BFFF&style=plastic"></a>
-    <a href="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic">
-        <img src="https://img.shields.io/github/repo-size/isLundy/Nuke-PythonScripts-Toolkit?color=%237B68EE&style=plastic"></a>
-    <a href="https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest">
-        <img src="https://img.shields.io/github/v/release/isLundy/Nuke-PythonScripts-Toolkit?style=plastic&color=LimeGreen"></a>
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=%231E90FF">
+    <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=rgb(255%2C%20149%2C%200)">
+    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=rgb(52%2C%20199%2C%2089)">
 </p>
 
 <br />
