@@ -42,7 +42,7 @@
 <br />
 
 ## 前言 :books:
-2018年12月，开始制作了一个用于 Nuke 的工具库，名为 `nuLibrary` ( 发音：/njuːˈlɪbrəri/ )，后续一直不断的整合优化。
+2018年12月，开始制作了一个用于 Nuke 的工具库，名为 `nuLibrary` ( /njuːˈlɪbrəri/ )，后续一直不断的整合优化。
 
 `nuLibrary` 内含有 `Gizmos` :toolbox:、 `PythonScripts` :toolbox:、 `Series` :toolbox: 三个不同的工具包，里面含有我平时搜集并使用的 gizmos 和 scripts，大部分来自网络，其他为自己编写。
 
