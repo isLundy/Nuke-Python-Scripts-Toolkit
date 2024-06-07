@@ -6,8 +6,9 @@
 <br />
 
 <p align="center">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=rgb(175%2C%2082%2C%20222)">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=%231E90FF">
-    <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=rgb(255%2C%20149%2C%200)">
+    <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=rgb(255%2C%2059%2C%2048)">
     <img alt="GitHub Release" src="https://img.shields.io/github/v/release/isLundy/Nuke-Python-Scripts-Toolkit?style=plastic&color=rgb(52%2C%20199%2C%2089)">
 </p>
 
