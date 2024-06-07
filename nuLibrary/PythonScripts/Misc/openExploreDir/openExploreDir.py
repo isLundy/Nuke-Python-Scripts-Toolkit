@@ -1,3 +1,6 @@
+# URL: https://github.com/isLundy/openExploreDir
+# version: 1.2
+
 import nuke
 import nukescripts
 from pathlib import Path

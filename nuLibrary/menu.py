@@ -1,7 +1,7 @@
 '''
 # Author: Lundy Hu
 # Email: lundyhu@outlook.com
-# See the https://github.com/isLundy/Nuke-PythonScripts-Toolkit for details.
+# URL: https://github.com/isLundy/Nuke-Python-Scripts-Toolkit.git
 '''
 import datetime
 
