@@ -56,7 +56,7 @@
 
 > 没找到 ？ 那就点击 [此处](https://github.com/isLundy/Nuke-PythonScripts-Toolkit/releases/latest) 吧 ～
 
-进入页面后点击 `Assets` 下的第一个 `nuLibrary_vX.X.X.zip` 链接 :link: 即可。
+进入页面后点击 `Assets` 下的第一个 `nuLibrary_vX.X.zip` 链接 :link: 即可。
 
 <br />
 
